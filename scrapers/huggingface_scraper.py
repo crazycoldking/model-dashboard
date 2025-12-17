@@ -64,7 +64,12 @@ class HuggingFaceScraper(BaseScraper):
                     if model:
                         models.append(model)
                         if len(models) >= self.max_models:
+                            logger.info(f"Reached max_models limit of {self.max_models}")
                             break
+                
+                # Check if we've reached max_models after processing all models in this page
+                if len(models) >= self.max_models:
+                    break
                 
                 # Update offset for next page
                 if len(page_models) < self.models_per_page:

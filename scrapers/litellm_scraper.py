@@ -84,7 +84,11 @@ class LiteLLMScraper(BaseScraper):
             if deprecation_date:
                 try:
                     dep_date = datetime.fromisoformat(deprecation_date.replace('Z', '+00:00'))
-                    now = datetime.now(dep_date.tzinfo if dep_date.tzinfo else None)
+                    # Ensure both datetimes are timezone-aware for comparison
+                    from datetime import timezone
+                    if dep_date.tzinfo is None:
+                        dep_date = dep_date.replace(tzinfo=timezone.utc)
+                    now = datetime.now(timezone.utc)
                     if dep_date < now:
                         is_deprecated = True
                         status = 'deprecated'
@@ -119,6 +123,14 @@ class LiteLLMScraper(BaseScraper):
             
             description = "; ".join(description_parts)
             
+            # Build documentation URL (only for known, simple provider names)
+            doc_url = ''
+            if litellm_provider and litellm_provider != 'Unknown':
+                # Only use provider in URL if it's a simple name without special chars
+                provider_slug = litellm_provider.lower().replace(' ', '-')
+                if provider_slug.replace('-', '').replace('_', '').isalnum():
+                    doc_url = f"https://docs.litellm.ai/docs/providers/{provider_slug}"
+            
             model = {
                 'name': model_id,
                 'version': 'N/A',
@@ -126,7 +138,7 @@ class LiteLLMScraper(BaseScraper):
                 'last_updated': deprecation_date if deprecation_date else '',
                 'task_types': task_types,
                 'parameters': str(max_tokens) if max_tokens != 'N/A' else 'N/A',
-                'documentation_url': f"https://docs.litellm.ai/docs/providers/{litellm_provider.lower()}" if litellm_provider != 'Unknown' else '',
+                'documentation_url': doc_url,
                 'source_url': 'https://github.com/BerriAI/litellm',
                 'platform': 'LiteLLM',
                 'status': status,

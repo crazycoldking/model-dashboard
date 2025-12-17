@@ -100,9 +100,10 @@ class GeminiScraper(BaseScraper):
             if not task_types:
                 task_types = ['multimodal']
             
+            # Truncate description to standard 200 characters
             full_description = f"{display_name}"
             if description:
-                full_description += f": {description[:150]}"
+                full_description += f": {description}"
             
             model = {
                 'name': model_id,
@@ -115,7 +116,7 @@ class GeminiScraper(BaseScraper):
                 'source_url': 'https://ai.google.dev/models',
                 'platform': 'Gemini',
                 'status': 'active',
-                'description': full_description[:200],
+                'description': full_description[:200] if full_description else '',
                 'downloads': 0,
                 'stars': 0,
             }
