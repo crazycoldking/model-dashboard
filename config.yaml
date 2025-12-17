@@ -1,0 +1,77 @@
+# AI Model Monitoring Dashboard Configuration
+
+# Data sources configuration
+data_sources:
+  # Hugging Face platform
+  huggingface:
+    enabled: true
+    base_url: "https://huggingface.co"
+    api_url: "https://huggingface.co/api"
+    models_per_page: 30
+    max_pages: 5
+    
+  # GitHub repositories
+  github:
+    enabled: true
+    min_stars: 1000
+    topics:
+      - "machine-learning"
+      - "deep-learning"
+      - "artificial-intelligence"
+      - "nlp"
+      - "computer-vision"
+      - "transformer"
+      - "llm"
+    max_repos: 100
+    
+  # Alibaba ModelScope
+  modelscope:
+    enabled: true
+    base_url: "https://modelscope.cn"
+    api_url: "https://modelscope.cn/api/v1"
+    models_per_page: 20
+    max_pages: 5
+
+# Model status configuration
+model_status:
+  # Consider model deprecated if no updates in months
+  deprecated_months: 6
+  # Keywords indicating deprecation
+  deprecated_keywords:
+    - "deprecated"
+    - "obsolete"
+    - "archived"
+    - "discontinued"
+    - "legacy"
+    - "淘汰"
+    - "废弃"
+
+# Task types mapping
+task_types:
+  - "text-classification"
+  - "text-generation"
+  - "text-to-text"
+  - "translation"
+  - "summarization"
+  - "question-answering"
+  - "image-classification"
+  - "image-generation"
+  - "image-to-text"
+  - "object-detection"
+  - "speech-recognition"
+  - "text-to-speech"
+  - "multimodal"
+  - "reinforcement-learning"
+  - "other"
+
+# Output configuration
+output:
+  data_dir: "data"
+  models_file: "models.json"
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
+  
+# GitHub Pages configuration
+pages:
+  title: "AI Model Monitoring Dashboard"
+  description: "Real-time tracking of AI models across major platforms"
+  items_per_page: 50
