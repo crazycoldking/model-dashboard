@@ -4,7 +4,7 @@ Provides common functionality for all scrapers
 """
 
 from abc import ABC, abstractmethod
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import List, Dict, Optional
 import logging
 
@@ -56,7 +56,12 @@ class BaseScraper(ABC):
         
         # Check if no updates in specified months
         if last_updated:
-            cutoff_date = datetime.now() - timedelta(days=30 * self.deprecated_months)
+            # Ensure timezone-aware comparison
+            now = datetime.now(timezone.utc)
+            # Make last_updated timezone-aware if it isn't
+            if last_updated.tzinfo is None:
+                last_updated = last_updated.replace(tzinfo=timezone.utc)
+            cutoff_date = now - timedelta(days=30 * self.deprecated_months)
             if last_updated < cutoff_date:
                 return True
                 

@@ -156,7 +156,7 @@ class GitHubScraper(BaseScraper):
             if updated_at:
                 try:
                     last_updated = datetime.fromisoformat(updated_at.replace('Z', '+00:00'))
-                except:
+                except (ValueError, TypeError):
                     pass
             
             # Get description

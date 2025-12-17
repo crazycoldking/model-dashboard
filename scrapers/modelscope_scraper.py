@@ -105,7 +105,7 @@ class ModelScopeScraper(BaseScraper):
             if updated_time:
                 try:
                     last_updated = datetime.fromisoformat(updated_time.replace('Z', '+00:00'))
-                except:
+                except (ValueError, TypeError):
                     pass
             
             # Get task types

@@ -92,7 +92,7 @@ class HuggingFaceScraper(BaseScraper):
             if last_modified:
                 try:
                     last_updated = datetime.fromisoformat(last_modified.replace('Z', '+00:00'))
-                except:
+                except (ValueError, TypeError):
                     pass
             
             # Parse tags to extract task types
