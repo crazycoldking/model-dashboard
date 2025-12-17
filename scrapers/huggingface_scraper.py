@@ -46,7 +46,7 @@ class HuggingFaceScraper(BaseScraper):
             }
             
             page = 0
-            while len(models) < self.max_models:
+            while True:
                 page += 1
                 logger.info(f"Fetching Hugging Face models page {page} (total: {len(models)}/{self.max_models})")
                 
@@ -60,18 +60,19 @@ class HuggingFaceScraper(BaseScraper):
                     break
                     
                 for model_data in page_models:
+                    if len(models) >= self.max_models:
+                        logger.info(f"Reached max_models limit of {self.max_models}")
+                        break
+                    
                     model = self._parse_model(model_data)
                     if model:
                         models.append(model)
-                        if len(models) >= self.max_models:
-                            logger.info(f"Reached max_models limit of {self.max_models}")
-                            break
                 
-                # Check if we've reached max_models after processing all models in this page
+                # Exit if we've reached max_models
                 if len(models) >= self.max_models:
                     break
                 
-                # Update offset for next page
+                # Exit if this was the last page
                 if len(page_models) < self.models_per_page:
                     logger.info("Reached last page")
                     break

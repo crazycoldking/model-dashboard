@@ -123,12 +123,13 @@ class LiteLLMScraper(BaseScraper):
             
             description = "; ".join(description_parts)
             
-            # Build documentation URL (only for known, simple provider names)
+            # Build documentation URL (only for simple provider names)
             doc_url = ''
             if litellm_provider and litellm_provider != 'Unknown':
-                # Only use provider in URL if it's a simple name without special chars
+                # Generate provider slug: lowercase, spaces to dashes
                 provider_slug = litellm_provider.lower().replace(' ', '-')
-                if provider_slug.replace('-', '').replace('_', '').isalnum():
+                # Only create URL if slug contains only safe characters (alphanumeric, dash, underscore)
+                if all(c.isalnum() or c in '-_' for c in provider_slug):
                     doc_url = f"https://docs.litellm.ai/docs/providers/{provider_slug}"
             
             model = {
