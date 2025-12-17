@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Model Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Model Monitoring Dashboard</h1>
+            <p class="subtitle">Real-time tracking of AI models across major platforms</p>
+        </header>
+
+        <div class="stats-container" id="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="total-models">0</div>
+                <div class="stat-label">Total Models</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="active-models">0</div>
+                <div class="stat-label">Active Models</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="deprecated-models">0</div>
+                <div class="stat-label">Deprecated</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="last-updated">-</div>
+                <div class="stat-label">Last Updated</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="platform-filter">Platform:</label>
+                <select id="platform-filter">
+                    <option value="all">All Platforms</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="status-filter">Status:</label>
+                <select id="status-filter">
+                    <option value="all">All Status</option>
+                    <option value="active">Active</option>
+                    <option value="deprecated">Deprecated</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="task-filter">Task Type:</label>
+                <select id="task-filter">
+                    <option value="all">All Types</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="sort-filter">Sort By:</label>
+                <select id="sort-filter">
+                    <option value="updated">Last Updated</option>
+                    <option value="stars">Stars/Likes</option>
+                    <option value="downloads">Downloads</option>
+                    <option value="name">Name</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <input type="text" id="search-input" placeholder="Search models...">
+            </div>
+        </div>
+
+        <div class="models-container" id="models-container">
+            <div class="loading">Loading models...</div>
+        </div>
+
+        <div class="pagination" id="pagination">
+            <button id="prev-page" disabled>&laquo; Previous</button>
+            <span id="page-info">Page 1</span>
+            <button id="next-page">Next &raquo;</button>
+        </div>
+
+        <footer>
+            <p>Data sourced from Hugging Face, GitHub, and ModelScope</p>
+            <p>Updated automatically via GitHub Actions</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

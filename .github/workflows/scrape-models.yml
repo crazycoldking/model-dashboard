@@ -1,0 +1,52 @@
+name: Scrape AI Models
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'scrapers/**'
+      - 'scrape_models.py'
+      - 'config.yaml'
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          
+      - name: Run scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scrape_models.py
+          
+      - name: Copy data to docs for GitHub Pages
+        run: |
+          mkdir -p docs/data
+          cp data/models.json docs/data/models.json
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/models.json docs/data/models.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update model data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push)
