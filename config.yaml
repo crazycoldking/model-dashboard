@@ -2,13 +2,13 @@
 
 # Data sources configuration
 data_sources:
-  # Hugging Face platform
+  # Hugging Face platform - Top 10k models by downloads
   huggingface:
     enabled: true
     base_url: "https://huggingface.co"
     api_url: "https://huggingface.co/api"
-    models_per_page: 30
-    max_pages: 5
+    models_per_page: 100
+    max_models: 10000
     
   # GitHub repositories
   github:
@@ -31,6 +31,41 @@ data_sources:
     api_url: "https://modelscope.cn/api/v1"
     models_per_page: 20
     max_pages: 5
+  
+  # LiteLLM - Community-maintained list of 1000+ models with deprecation dates
+  litellm:
+    enabled: true
+    json_url: "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json"
+  
+  # OpenAI API (requires OPENAI_API_KEY environment variable)
+  openai:
+    enabled: false
+    api_url: "https://api.openai.com/v1/models"
+    # api_key can be set here or via OPENAI_API_KEY env var
+  
+  # Anthropic API (requires ANTHROPIC_API_KEY environment variable)
+  anthropic:
+    enabled: false
+    api_url: "https://api.anthropic.com/v1/models"
+    # api_key can be set here or via ANTHROPIC_API_KEY env var
+  
+  # Mistral API (requires MISTRAL_API_KEY environment variable)
+  mistral:
+    enabled: false
+    api_url: "https://api.mistral.ai/v1/models"
+    # api_key can be set here or via MISTRAL_API_KEY env var
+  
+  # Google Gemini API (requires GEMINI_API_KEY environment variable)
+  gemini:
+    enabled: false
+    api_url: "https://generativelanguage.googleapis.com/v1beta/models"
+    # api_key can be set here or via GEMINI_API_KEY env var
+  
+  # Cohere API (requires COHERE_API_KEY environment variable)
+  cohere:
+    enabled: false
+    api_url: "https://api.cohere.com/v1/models"
+    # api_key can be set here or via COHERE_API_KEY env var
 
 # Model status configuration
 model_status:

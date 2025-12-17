@@ -11,7 +11,17 @@ from pathlib import Path
 import logging
 from typing import List, Dict
 
-from scrapers import HuggingFaceScraper, GitHubScraper, ModelScopeScraper
+from scrapers import (
+    HuggingFaceScraper, 
+    GitHubScraper, 
+    ModelScopeScraper,
+    LiteLLMScraper,
+    OpenAIScraper,
+    AnthropicScraper,
+    MistralScraper,
+    GeminiScraper,
+    CohereScraper
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -90,6 +100,12 @@ def main():
         HuggingFaceScraper(config),
         GitHubScraper(config),
         ModelScopeScraper(config),
+        LiteLLMScraper(config),
+        OpenAIScraper(config),
+        AnthropicScraper(config),
+        MistralScraper(config),
+        GeminiScraper(config),
+        CohereScraper(config),
     ]
     
     # Scrape from all sources

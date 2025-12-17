@@ -1,6 +1,6 @@
 """
 Hugging Face model scraper
-Scrapes models from Hugging Face Hub
+Scrapes top 10k models from Hugging Face Hub by downloads
 """
 
 import requests
@@ -13,19 +13,19 @@ logger = logging.getLogger(__name__)
 
 
 class HuggingFaceScraper(BaseScraper):
-    """Scraper for Hugging Face models"""
+    """Scraper for Hugging Face models - fetches top 10k models by downloads"""
     
     def __init__(self, config: Dict):
         super().__init__(config)
         self.hf_config = config.get('data_sources', {}).get('huggingface', {})
         self.base_url = self.hf_config.get('base_url', 'https://huggingface.co')
         self.api_url = self.hf_config.get('api_url', 'https://huggingface.co/api')
-        self.models_per_page = self.hf_config.get('models_per_page', 30)
-        self.max_pages = self.hf_config.get('max_pages', 5)
+        self.models_per_page = self.hf_config.get('models_per_page', 100)
+        self.max_models = self.hf_config.get('max_models', 10000)
         
     def scrape(self) -> List[Dict]:
         """
-        Scrape models from Hugging Face
+        Scrape top 10k models from Hugging Face by downloads
         
         Returns:
             List of model dictionaries
@@ -37,7 +37,7 @@ class HuggingFaceScraper(BaseScraper):
         models = []
         
         try:
-            # Fetch popular models (sorted by downloads)
+            # Fetch popular models (sorted by downloads) - top 10k
             url = f"{self.api_url}/models"
             params = {
                 'sort': 'downloads',
@@ -45,8 +45,10 @@ class HuggingFaceScraper(BaseScraper):
                 'limit': self.models_per_page,
             }
             
-            for page in range(self.max_pages):
-                logger.info(f"Fetching Hugging Face models page {page + 1}/{self.max_pages}")
+            page = 0
+            while len(models) < self.max_models:
+                page += 1
+                logger.info(f"Fetching Hugging Face models page {page} (total: {len(models)}/{self.max_models})")
                 
                 response = requests.get(url, params=params, timeout=30)
                 response.raise_for_status()
@@ -54,18 +56,22 @@ class HuggingFaceScraper(BaseScraper):
                 page_models = response.json()
                 
                 if not page_models:
+                    logger.info("No more models available")
                     break
                     
                 for model_data in page_models:
                     model = self._parse_model(model_data)
                     if model:
                         models.append(model)
+                        if len(models) >= self.max_models:
+                            break
                 
                 # Update offset for next page
                 if len(page_models) < self.models_per_page:
+                    logger.info("Reached last page")
                     break
                     
-                params['skip'] = (page + 1) * self.models_per_page
+                params['skip'] = page * self.models_per_page
                 
         except Exception as e:
             logger.error(f"Error scraping Hugging Face: {e}")

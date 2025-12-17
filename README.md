@@ -5,9 +5,16 @@
 ## Features
 
 - **Multi-Platform Scraping**: Automatically collects model information from:
-  - Hugging Face Hub
-  - GitHub (AI repositories with high stars)
-  - Alibaba ModelScope
+  - **LiteLLM** - Community-maintained list of 1000+ models with deprecation dates
+  - **Hugging Face Hub** - Top 10k models by downloads
+  - **GitHub** - AI repositories with high stars
+  - **Alibaba ModelScope**
+  - **Provider APIs** (optional, requires API keys):
+    - OpenAI
+    - Anthropic (Claude)
+    - Mistral AI
+    - Google Gemini
+    - Cohere
   
 - **Comprehensive Model Data**: Tracks essential information including:
   - Model name and version
@@ -68,10 +75,15 @@ Edit `config.yaml` to customize:
 Example configuration:
 ```yaml
 data_sources:
+  # LiteLLM - Community-maintained list
+  litellm:
+    enabled: true
+  
+  # Hugging Face - Top 10k models
   huggingface:
     enabled: true
-    models_per_page: 30
-    max_pages: 5
+    models_per_page: 100
+    max_models: 10000
   
   github:
     enabled: true
@@ -79,6 +91,22 @@ data_sources:
     
   modelscope:
     enabled: true
+  
+  # Provider APIs (optional, requires API keys)
+  openai:
+    enabled: false  # Set to true and provide API key
+  
+  anthropic:
+    enabled: false  # Set to true and provide API key
+  
+  mistral:
+    enabled: false  # Set to true and provide API key
+  
+  gemini:
+    enabled: false  # Set to true and provide API key
+  
+  cohere:
+    enabled: false  # Set to true and provide API key
 ```
 
 ### GitHub Actions Setup
@@ -93,6 +121,45 @@ To set up GitHub Pages:
 2. Select "GitHub Actions" as the source
 3. The dashboard will be available at `https://crazycoldking.github.io/model-dashboard/`
 
+## Data Sources
+
+The dashboard fetches model data from multiple sources:
+
+### 1. LiteLLM
+- **Source**: https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json
+- **Description**: Community-maintained list of 1000+ models with deprecation dates
+- **Data**: Model pricing, context windows, deprecation information
+- **Configuration**: Always enabled by default
+
+### 2. HuggingFace API
+- **Source**: https://huggingface.co/api/models
+- **Description**: Top 10k models by downloads
+- **Data**: Model metadata, task types, downloads, stars
+- **Configuration**: Fetches up to 10,000 models (configurable)
+
+### 3. Provider APIs (Optional)
+Requires API keys to enable:
+
+#### OpenAI
+- **API**: https://api.openai.com/v1/models
+- **Env Variable**: `OPENAI_API_KEY`
+
+#### Anthropic (Claude)
+- **API**: https://api.anthropic.com/v1/models
+- **Env Variable**: `ANTHROPIC_API_KEY`
+
+#### Mistral AI
+- **API**: https://api.mistral.ai/v1/models
+- **Env Variable**: `MISTRAL_API_KEY`
+
+#### Google Gemini
+- **API**: https://generativelanguage.googleapis.com/v1beta/models
+- **Env Variable**: `GEMINI_API_KEY`
+
+#### Cohere
+- **API**: https://api.cohere.com/v1/models
+- **Env Variable**: `COHERE_API_KEY`
+
 ## Project Structure
 
 ```
@@ -102,7 +169,13 @@ model-dashboard/
 │   ├── base_scraper.py    # Base scraper class
 │   ├── huggingface_scraper.py
 │   ├── github_scraper.py
-│   └── modelscope_scraper.py
+│   ├── modelscope_scraper.py
+│   ├── litellm_scraper.py
+│   ├── openai_scraper.py
+│   ├── anthropic_scraper.py
+│   ├── mistral_scraper.py
+│   ├── gemini_scraper.py
+│   └── cohere_scraper.py
 ├── docs/                   # GitHub Pages site
 │   ├── index.html         # Dashboard UI
 │   ├── style.css          # Styling
@@ -216,6 +289,23 @@ python -m http.server 8000
 ### Environment Variables
 
 - `GITHUB_TOKEN`: GitHub personal access token (for higher API rate limits)
+- `OPENAI_API_KEY`: OpenAI API key (optional, for OpenAI scraper)
+- `ANTHROPIC_API_KEY`: Anthropic API key (optional, for Anthropic scraper)
+- `MISTRAL_API_KEY`: Mistral API key (optional, for Mistral scraper)
+- `GEMINI_API_KEY`: Google Gemini API key (optional, for Gemini scraper)
+- `COHERE_API_KEY`: Cohere API key (optional, for Cohere scraper)
+
+To use provider API scrapers:
+1. Obtain API keys from respective providers
+2. Set the environment variables or configure them in `config.yaml`
+3. Enable the scrapers in `config.yaml` by setting `enabled: true`
+
+Example:
+```bash
+export OPENAI_API_KEY="your-key-here"
+export ANTHROPIC_API_KEY="your-key-here"
+python scrape_models.py
+```
 
 ## License
 
