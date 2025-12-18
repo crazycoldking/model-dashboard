@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-17T14:52:57.107782",
-  "total_models": 5363,
+  "last_updated": "2025-12-18T02:10:11.713903",
+  "total_models": 5366,
   "models": [
     {
       "name": "sample_spec",
@@ -530,44 +530,27 @@
       "stars": 0
     },
     {
-      "name": "FlowiseAI/Flowise",
+      "name": "dair-ai/Prompt-Engineering-Guide",
       "version": "N/A",
-      "release_date": "2023-03-31T12:23:09+00:00",
-      "last_updated": "2025-12-17T14:52:13+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/FlowiseAI/Flowise",
-      "source_url": "https://github.com/FlowiseAI/Flowise",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Build AI Agents, Visually",
-      "downloads": 0,
-      "stars": 47389
-    },
-    {
-      "name": "rasbt/LLMs-from-scratch",
-      "version": "N/A",
-      "release_date": "2023-07-23T18:15:57+00:00",
-      "last_updated": "2025-12-17T14:51:33+00:00",
+      "release_date": "2022-12-16T16:04:50+00:00",
+      "last_updated": "2025-12-18T02:09:32+00:00",
       "task_types": [
         "text-generation"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/rasbt/LLMs-from-scratch",
-      "source_url": "https://github.com/rasbt/LLMs-from-scratch",
+      "documentation_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "source_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
       "platform": "GitHub",
       "status": "active",
-      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
       "downloads": 0,
-      "stars": 81198
+      "stars": 67890
     },
     {
       "name": "tensorflow/tensorflow",
       "version": "N/A",
       "release_date": "2015-11-07T01:19:20+00:00",
-      "last_updated": "2025-12-17T14:50:26+00:00",
+      "last_updated": "2025-12-18T02:09:31+00:00",
       "task_types": [
         "other"
       ],
@@ -578,118 +561,13 @@
       "status": "active",
       "description": "An Open Source Machine Learning Framework for Everyone",
       "downloads": 0,
-      "stars": 192844
-    },
-    {
-      "name": "huggingface/transformers",
-      "version": "N/A",
-      "release_date": "2018-10-29T13:56:00+00:00",
-      "last_updated": "2025-12-17T14:48:01+00:00",
-      "task_types": [
-        "text-generation",
-        "speech-recognition"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/huggingface/transformers",
-      "source_url": "https://github.com/huggingface/transformers",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "downloads": 0,
-      "stars": 153974
-    },
-    {
-      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "version": "N/A",
-      "release_date": "2021-01-02T12:08:37+00:00",
-      "last_updated": "2025-12-17T14:37:07+00:00",
-      "task_types": [
-        "image-classification",
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "source_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
-      "downloads": 0,
-      "stars": 30024
-    },
-    {
-      "name": "infiniflow/ragflow",
-      "version": "N/A",
-      "release_date": "2023-12-12T06:13:13+00:00",
-      "last_updated": "2025-12-17T14:34:38+00:00",
-      "task_types": [
-        "generation",
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/infiniflow/ragflow",
-      "source_url": "https://github.com/infiniflow/ragflow",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "downloads": 0,
-      "stars": 69978
-    },
-    {
-      "name": "netdata/netdata",
-      "version": "N/A",
-      "release_date": "2013-06-17T18:39:10+00:00",
-      "last_updated": "2025-12-17T14:30:21+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/netdata/netdata",
-      "source_url": "https://github.com/netdata/netdata",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "downloads": 0,
-      "stars": 77043
-    },
-    {
-      "name": "microsoft/ML-For-Beginners",
-      "version": "N/A",
-      "release_date": "2021-03-03T01:34:05+00:00",
-      "last_updated": "2025-12-17T14:28:13+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/microsoft/ML-For-Beginners",
-      "source_url": "https://github.com/microsoft/ML-For-Beginners",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-      "downloads": 0,
-      "stars": 82224
-    },
-    {
-      "name": "scikit-learn/scikit-learn",
-      "version": "N/A",
-      "release_date": "2010-08-17T09:43:38+00:00",
-      "last_updated": "2025-12-17T14:24:57+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/scikit-learn/scikit-learn",
-      "source_url": "https://github.com/scikit-learn/scikit-learn",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "scikit-learn: machine learning in Python",
-      "downloads": 0,
-      "stars": 64309
+      "stars": 192849
     },
     {
       "name": "d2l-ai/d2l-zh",
       "version": "N/A",
       "release_date": "2017-08-23T04:40:24+00:00",
-      "last_updated": "2025-12-17T14:21:10+00:00",
+      "last_updated": "2025-12-18T02:09:09+00:00",
       "task_types": [
         "image-classification"
       ],
@@ -700,48 +578,167 @@
       "status": "active",
       "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
       "downloads": 0,
-      "stars": 74444
+      "stars": 74447
     },
     {
-      "name": "pytorch/pytorch",
+      "name": "microsoft/ML-For-Beginners",
       "version": "N/A",
-      "release_date": "2016-08-13T05:26:41+00:00",
-      "last_updated": "2025-12-17T14:17:45+00:00",
+      "release_date": "2021-03-03T01:34:05+00:00",
+      "last_updated": "2025-12-18T02:07:43+00:00",
       "task_types": [
         "other"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/pytorch/pytorch",
-      "source_url": "https://github.com/pytorch/pytorch",
+      "documentation_url": "https://github.com/microsoft/ML-For-Beginners",
+      "source_url": "https://github.com/microsoft/ML-For-Beginners",
       "platform": "GitHub",
       "status": "active",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
       "downloads": 0,
-      "stars": 95975
+      "stars": 82264
     },
     {
-      "name": "explosion/spaCy",
+      "name": "Significant-Gravitas/AutoGPT",
       "version": "N/A",
-      "release_date": "2014-07-03T15:15:40+00:00",
-      "last_updated": "2025-12-17T14:17:11+00:00",
+      "release_date": "2023-03-16T09:21:07+00:00",
+      "last_updated": "2025-12-18T02:05:54+00:00",
       "task_types": [
-        "classification",
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "downloads": 0,
+      "stars": 180352
+    },
+    {
+      "name": "rasbt/LLMs-from-scratch",
+      "version": "N/A",
+      "release_date": "2023-07-23T18:15:57+00:00",
+      "last_updated": "2025-12-18T02:05:27+00:00",
+      "task_types": [
         "text-generation"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/explosion/spaCy",
-      "source_url": "https://github.com/explosion/spaCy",
+      "documentation_url": "https://github.com/rasbt/LLMs-from-scratch",
+      "source_url": "https://github.com/rasbt/LLMs-from-scratch",
       "platform": "GitHub",
       "status": "active",
-      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
       "downloads": 0,
-      "stars": 32958
+      "stars": 81228
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "version": "N/A",
+      "release_date": "2023-12-12T06:13:13+00:00",
+      "last_updated": "2025-12-18T02:04:33+00:00",
+      "task_types": [
+        "text-generation",
+        "generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/infiniflow/ragflow",
+      "source_url": "https://github.com/infiniflow/ragflow",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "downloads": 0,
+      "stars": 69995
+    },
+    {
+      "name": "tesseract-ocr/tesseract",
+      "version": "N/A",
+      "release_date": "2014-08-12T18:04:59+00:00",
+      "last_updated": "2025-12-18T02:02:57+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/tesseract-ocr/tesseract",
+      "source_url": "https://github.com/tesseract-ocr/tesseract",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Tesseract Open Source OCR Engine (main repository)",
+      "downloads": 0,
+      "stars": 71450
+    },
+    {
+      "name": "Lightning-AI/pytorch-lightning",
+      "version": "N/A",
+      "release_date": "2019-03-31T00:45:57+00:00",
+      "last_updated": "2025-12-18T02:02:44+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "source_url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
+      "downloads": 0,
+      "stars": 30585
+    },
+    {
+      "name": "scikit-learn/scikit-learn",
+      "version": "N/A",
+      "release_date": "2010-08-17T09:43:38+00:00",
+      "last_updated": "2025-12-18T01:59:12+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/scikit-learn/scikit-learn",
+      "source_url": "https://github.com/scikit-learn/scikit-learn",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "scikit-learn: machine learning in Python",
+      "downloads": 0,
+      "stars": 64313
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "version": "N/A",
+      "release_date": "2024-07-27T04:34:12+00:00",
+      "last_updated": "2025-12-18T01:55:43+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/jingyaogong/minimind",
+      "source_url": "https://github.com/jingyaogong/minimind",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!",
+      "downloads": 0,
+      "stars": 35742
+    },
+    {
+      "name": "mlabonne/llm-course",
+      "version": "N/A",
+      "release_date": "2023-06-17T22:16:25+00:00",
+      "last_updated": "2025-12-18T01:52:07+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/mlabonne/llm-course",
+      "source_url": "https://github.com/mlabonne/llm-course",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "downloads": 0,
+      "stars": 70519
     },
     {
       "name": "hacksider/Deep-Live-Cam",
       "version": "N/A",
       "release_date": "2023-09-24T13:19:31+00:00",
-      "last_updated": "2025-12-17T14:13:18+00:00",
+      "last_updated": "2025-12-18T01:50:52+00:00",
       "task_types": [
         "other"
       ],
@@ -755,44 +752,10 @@
       "stars": 76300
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "version": "N/A",
-      "release_date": "2023-03-16T09:21:07+00:00",
-      "last_updated": "2025-12-17T14:13:02+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "downloads": 0,
-      "stars": 180348
-    },
-    {
-      "name": "mlabonne/llm-course",
-      "version": "N/A",
-      "release_date": "2023-06-17T22:16:25+00:00",
-      "last_updated": "2025-12-17T14:12:13+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/mlabonne/llm-course",
-      "source_url": "https://github.com/mlabonne/llm-course",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "downloads": 0,
-      "stars": 70494
-    },
-    {
       "name": "ultralytics/yolov5",
       "version": "N/A",
       "release_date": "2020-05-18T03:45:11+00:00",
-      "last_updated": "2025-12-17T14:12:13+00:00",
+      "last_updated": "2025-12-18T01:49:33+00:00",
       "task_types": [
         "object-detection"
       ],
@@ -803,13 +766,237 @@
       "status": "active",
       "description": "YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite",
       "downloads": 0,
-      "stars": 56385
+      "stars": 56395
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "version": "N/A",
+      "release_date": "2024-03-13T03:33:31+00:00",
+      "last_updated": "2025-12-18T01:48:23+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/OpenHands/OpenHands",
+      "source_url": "https://github.com/OpenHands/OpenHands",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "downloads": 0,
+      "stars": 65751
+    },
+    {
+      "name": "pytorch/pytorch",
+      "version": "N/A",
+      "release_date": "2016-08-13T05:26:41+00:00",
+      "last_updated": "2025-12-18T01:46:39+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/pytorch/pytorch",
+      "source_url": "https://github.com/pytorch/pytorch",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "downloads": 0,
+      "stars": 95978
+    },
+    {
+      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "version": "N/A",
+      "release_date": "2021-01-02T12:08:37+00:00",
+      "last_updated": "2025-12-18T01:37:36+00:00",
+      "task_types": [
+        "image-classification",
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "source_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "downloads": 0,
+      "stars": 30041
+    },
+    {
+      "name": "labmlai/annotated_deep_learning_paper_implementations",
+      "version": "N/A",
+      "release_date": "2020-08-25T02:29:34+00:00",
+      "last_updated": "2025-12-18T01:36:01+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "source_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(",
+      "downloads": 0,
+      "stars": 64814
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "version": "N/A",
+      "release_date": "2022-08-22T14:05:26+00:00",
+      "last_updated": "2025-12-18T01:30:09+00:00",
+      "task_types": [
+        "generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Stable Diffusion web UI",
+      "downloads": 0,
+      "stars": 159041
+    },
+    {
+      "name": "huggingface/transformers",
+      "version": "N/A",
+      "release_date": "2018-10-29T13:56:00+00:00",
+      "last_updated": "2025-12-18T01:26:41+00:00",
+      "task_types": [
+        "speech-recognition",
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/huggingface/transformers",
+      "source_url": "https://github.com/huggingface/transformers",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "downloads": 0,
+      "stars": 153987
+    },
+    {
+      "name": "AMAI-GmbH/AI-Expert-Roadmap",
+      "version": "N/A",
+      "release_date": "2020-10-24T21:49:40+00:00",
+      "last_updated": "2025-12-18T01:19:31+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "source_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+      "downloads": 0,
+      "stars": 30557
+    },
+    {
+      "name": "CorentinJ/Real-Time-Voice-Cloning",
+      "version": "N/A",
+      "release_date": "2019-05-26T08:56:15+00:00",
+      "last_updated": "2025-12-18T01:13:05+00:00",
+      "task_types": [
+        "speech-recognition"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "source_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "downloads": 0,
+      "stars": 59029
+    },
+    {
+      "name": "Kong/kong",
+      "version": "N/A",
+      "release_date": "2014-11-17T23:56:08+00:00",
+      "last_updated": "2025-12-18T01:02:41+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Kong/kong",
+      "source_url": "https://github.com/Kong/kong",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🦍 The Cloud-Native Gateway for APIs & AI",
+      "downloads": 0,
+      "stars": 42397
+    },
+    {
+      "name": "opencv/opencv",
+      "version": "N/A",
+      "release_date": "2012-07-19T09:40:17+00:00",
+      "last_updated": "2025-12-18T00:54:49+00:00",
+      "task_types": [
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/opencv/opencv",
+      "source_url": "https://github.com/opencv/opencv",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Open Source Computer Vision Library",
+      "downloads": 0,
+      "stars": 85328
+    },
+    {
+      "name": "explosion/spaCy",
+      "version": "N/A",
+      "release_date": "2014-07-03T15:15:40+00:00",
+      "last_updated": "2025-12-18T00:42:50+00:00",
+      "task_types": [
+        "classification",
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/explosion/spaCy",
+      "source_url": "https://github.com/explosion/spaCy",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "downloads": 0,
+      "stars": 32961
+    },
+    {
+      "name": "binhnguyennus/awesome-scalability",
+      "version": "N/A",
+      "release_date": "2017-12-27T03:46:40+00:00",
+      "last_updated": "2025-12-18T00:39:01+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/binhnguyennus/awesome-scalability",
+      "source_url": "https://github.com/binhnguyennus/awesome-scalability",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "downloads": 0,
+      "stars": 67231
+    },
+    {
+      "name": "netdata/netdata",
+      "version": "N/A",
+      "release_date": "2013-06-17T18:39:10+00:00",
+      "last_updated": "2025-12-18T00:38:19+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/netdata/netdata",
+      "source_url": "https://github.com/netdata/netdata",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "downloads": 0,
+      "stars": 77049
     },
     {
       "name": "microsoft/AI-For-Beginners",
       "version": "N/A",
       "release_date": "2021-03-03T16:27:36+00:00",
-      "last_updated": "2025-12-17T14:08:18+00:00",
+      "last_updated": "2025-12-18T00:16:21+00:00",
       "task_types": [
         "image-classification",
         "text-generation"
@@ -821,268 +1008,13 @@
       "status": "active",
       "description": "12 Weeks, 24 Lessons, AI for All!",
       "downloads": 0,
-      "stars": 44411
-    },
-    {
-      "name": "OpenHands/OpenHands",
-      "version": "N/A",
-      "release_date": "2024-03-13T03:33:31+00:00",
-      "last_updated": "2025-12-17T14:06:45+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/OpenHands/OpenHands",
-      "source_url": "https://github.com/OpenHands/OpenHands",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🙌 OpenHands: AI-Driven Development",
-      "downloads": 0,
-      "stars": 65749
-    },
-    {
-      "name": "dair-ai/Prompt-Engineering-Guide",
-      "version": "N/A",
-      "release_date": "2022-12-16T16:04:50+00:00",
-      "last_updated": "2025-12-17T14:03:21+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-      "source_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "downloads": 0,
-      "stars": 67874
-    },
-    {
-      "name": "tesseract-ocr/tesseract",
-      "version": "N/A",
-      "release_date": "2014-08-12T18:04:59+00:00",
-      "last_updated": "2025-12-17T13:59:59+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/tesseract-ocr/tesseract",
-      "source_url": "https://github.com/tesseract-ocr/tesseract",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Tesseract Open Source OCR Engine (main repository)",
-      "downloads": 0,
-      "stars": 71446
-    },
-    {
-      "name": "Kong/kong",
-      "version": "N/A",
-      "release_date": "2014-11-17T23:56:08+00:00",
-      "last_updated": "2025-12-17T13:58:01+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/Kong/kong",
-      "source_url": "https://github.com/Kong/kong",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🦍 The Cloud-Native Gateway for APIs & AI",
-      "downloads": 0,
-      "stars": 42393
-    },
-    {
-      "name": "AUTOMATIC1111/stable-diffusion-webui",
-      "version": "N/A",
-      "release_date": "2022-08-22T14:05:26+00:00",
-      "last_updated": "2025-12-17T13:55:27+00:00",
-      "task_types": [
-        "generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Stable Diffusion web UI",
-      "downloads": 0,
-      "stars": 159035
-    },
-    {
-      "name": "jingyaogong/minimind",
-      "version": "N/A",
-      "release_date": "2024-07-27T04:34:12+00:00",
-      "last_updated": "2025-12-17T13:50:29+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/jingyaogong/minimind",
-      "source_url": "https://github.com/jingyaogong/minimind",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!",
-      "downloads": 0,
-      "stars": 35735
-    },
-    {
-      "name": "Developer-Y/cs-video-courses",
-      "version": "N/A",
-      "release_date": "2016-10-21T17:02:11+00:00",
-      "last_updated": "2025-12-17T13:36:20+00:00",
-      "task_types": [
-        "image-classification"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/Developer-Y/cs-video-courses",
-      "source_url": "https://github.com/Developer-Y/cs-video-courses",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "List of Computer Science courses with video lectures.",
-      "downloads": 0,
-      "stars": 70405
-    },
-    {
-      "name": "AMAI-GmbH/AI-Expert-Roadmap",
-      "version": "N/A",
-      "release_date": "2020-10-24T21:49:40+00:00",
-      "last_updated": "2025-12-17T13:14:49+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
-      "source_url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
-      "downloads": 0,
-      "stars": 30556
-    },
-    {
-      "name": "Lightning-AI/pytorch-lightning",
-      "version": "N/A",
-      "release_date": "2019-03-31T00:45:57+00:00",
-      "last_updated": "2025-12-17T13:05:49+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/Lightning-AI/pytorch-lightning",
-      "source_url": "https://github.com/Lightning-AI/pytorch-lightning",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
-      "downloads": 0,
-      "stars": 30583
-    },
-    {
-      "name": "binhnguyennus/awesome-scalability",
-      "version": "N/A",
-      "release_date": "2017-12-27T03:46:40+00:00",
-      "last_updated": "2025-12-17T12:42:01+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/binhnguyennus/awesome-scalability",
-      "source_url": "https://github.com/binhnguyennus/awesome-scalability",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-      "downloads": 0,
-      "stars": 67221
-    },
-    {
-      "name": "CorentinJ/Real-Time-Voice-Cloning",
-      "version": "N/A",
-      "release_date": "2019-05-26T08:56:15+00:00",
-      "last_updated": "2025-12-17T12:14:38+00:00",
-      "task_types": [
-        "speech-recognition"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
-      "source_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-      "downloads": 0,
-      "stars": 59024
-    },
-    {
-      "name": "facebookresearch/fairseq",
-      "version": "N/A",
-      "release_date": "2017-08-29T16:26:12+00:00",
-      "last_updated": "2025-12-17T11:29:59+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/facebookresearch/fairseq",
-      "source_url": "https://github.com/facebookresearch/fairseq",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
-      "downloads": 0,
-      "stars": 32029
-    },
-    {
-      "name": "labmlai/annotated_deep_learning_paper_implementations",
-      "version": "N/A",
-      "release_date": "2020-08-25T02:29:34+00:00",
-      "last_updated": "2025-12-17T11:25:55+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-      "source_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(",
-      "downloads": 0,
-      "stars": 64812
-    },
-    {
-      "name": "opencv/opencv",
-      "version": "N/A",
-      "release_date": "2012-07-19T09:40:17+00:00",
-      "last_updated": "2025-12-17T10:30:54+00:00",
-      "task_types": [
-        "image-classification"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/opencv/opencv",
-      "source_url": "https://github.com/opencv/opencv",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Open Source Computer Vision Library",
-      "downloads": 0,
-      "stars": 85325
-    },
-    {
-      "name": "XingangPan/DragGAN",
-      "version": "N/A",
-      "release_date": "2023-05-18T10:08:02+00:00",
-      "last_updated": "2025-12-17T07:42:09+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/XingangPan/DragGAN",
-      "source_url": "https://github.com/XingangPan/DragGAN",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Official Code for DragGAN (SIGGRAPH 2023)",
-      "downloads": 0,
-      "stars": 35984
+      "stars": 44430
     },
     {
       "name": "keras-team/keras",
       "version": "N/A",
       "release_date": "2015-03-28T00:35:42+00:00",
-      "last_updated": "2025-12-17T07:08:22+00:00",
+      "last_updated": "2025-12-18T00:08:26+00:00",
       "task_types": [
         "other"
       ],
@@ -1093,7 +1025,75 @@
       "status": "active",
       "description": "Deep Learning for humans",
       "downloads": 0,
-      "stars": 63645
+      "stars": 63646
+    },
+    {
+      "name": "Developer-Y/cs-video-courses",
+      "version": "N/A",
+      "release_date": "2016-10-21T17:02:11+00:00",
+      "last_updated": "2025-12-17T23:13:12+00:00",
+      "task_types": [
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Developer-Y/cs-video-courses",
+      "source_url": "https://github.com/Developer-Y/cs-video-courses",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "List of Computer Science courses with video lectures.",
+      "downloads": 0,
+      "stars": 70414
+    },
+    {
+      "name": "facebookresearch/fairseq",
+      "version": "N/A",
+      "release_date": "2017-08-29T16:26:12+00:00",
+      "last_updated": "2025-12-17T21:20:27+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/facebookresearch/fairseq",
+      "source_url": "https://github.com/facebookresearch/fairseq",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python.",
+      "downloads": 0,
+      "stars": 32030
+    },
+    {
+      "name": "FlowiseAI/Flowise",
+      "version": "N/A",
+      "release_date": "2023-03-31T12:23:09+00:00",
+      "last_updated": "2025-12-17T20:27:46+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/FlowiseAI/Flowise",
+      "source_url": "https://github.com/FlowiseAI/Flowise",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Build AI Agents, Visually",
+      "downloads": 0,
+      "stars": 47395
+    },
+    {
+      "name": "XingangPan/DragGAN",
+      "version": "N/A",
+      "release_date": "2023-05-18T10:08:02+00:00",
+      "last_updated": "2025-12-17T19:24:27+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/XingangPan/DragGAN",
+      "source_url": "https://github.com/XingangPan/DragGAN",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Official Code for DragGAN (SIGGRAPH 2023)",
+      "downloads": 0,
+      "stars": 35985
     },
     {
       "name": "o1-mini-2024-09-12",
@@ -2170,7 +2170,7 @@
       "status": "active",
       "description": "",
       "downloads": 148248971,
-      "stars": 4234
+      "stars": 4236
     },
     {
       "name": "Falconsai/nsfw_image_detection",
@@ -2221,7 +2221,7 @@
       "status": "active",
       "description": "",
       "downloads": 57221973,
-      "stars": 2518
+      "stars": 2519
     },
     {
       "name": "dima806/fairface_age_image_detection",
@@ -2306,7 +2306,7 @@
       "status": "active",
       "description": "",
       "downloads": 18010783,
-      "stars": 825
+      "stars": 826
     },
     {
       "name": "pyannote/segmentation-3.0",
@@ -2364,7 +2364,7 @@
       "status": "active",
       "description": "",
       "downloads": 16029858,
-      "stars": 1370
+      "stars": 1371
     },
     {
       "name": "pyannote/wespeaker-voxceleb-resnet34-LM",
@@ -2518,7 +2518,7 @@
       "status": "active",
       "description": "",
       "downloads": 9398879,
-      "stars": 57
+      "stars": 58
     },
     {
       "name": "distilbert/distilbert-base-uncased",
@@ -2535,7 +2535,7 @@
       "status": "active",
       "description": "",
       "downloads": 9289229,
-      "stars": 805
+      "stars": 806
     },
     {
       "name": "Qwen/Qwen2.5-3B-Instruct",
@@ -2640,7 +2640,7 @@
       "status": "active",
       "description": "",
       "downloads": 7785554,
-      "stars": 885
+      "stars": 886
     },
     {
       "name": "facebook/contriever",
@@ -2674,7 +2674,7 @@
       "status": "active",
       "description": "",
       "downloads": 7578095,
-      "stars": 4072
+      "stars": 4073
     },
     {
       "name": "FacebookAI/roberta-base",
@@ -2795,7 +2795,7 @@
       "status": "active",
       "description": "",
       "downloads": 6411522,
-      "stars": 3240
+      "stars": 3242
     },
     {
       "name": "Comfy-Org/Wan_2.2_ComfyUI_Repackaged",
@@ -2812,7 +2812,7 @@
       "status": "active",
       "description": "",
       "downloads": 6220688,
-      "stars": 497
+      "stars": 499
     },
     {
       "name": "usyd-community/vitpose-plus-base",
@@ -2847,7 +2847,7 @@
       "status": "active",
       "description": "",
       "downloads": 6047314,
-      "stars": 575
+      "stars": 576
     },
     {
       "name": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
@@ -2933,7 +2933,7 @@
       "status": "active",
       "description": "",
       "downloads": 5679387,
-      "stars": 1867
+      "stars": 1868
     },
     {
       "name": "google-bert/bert-base-multilingual-uncased",
@@ -3088,7 +3088,7 @@
       "status": "active",
       "description": "",
       "downloads": 4834181,
-      "stars": 356
+      "stars": 357
     },
     {
       "name": "Alibaba-NLP/gte-large-en-v1.5",
@@ -3140,7 +3140,7 @@
       "status": "active",
       "description": "",
       "downloads": 4741788,
-      "stars": 1515
+      "stars": 1516
     },
     {
       "name": "facebook/opt-125m",
@@ -3176,7 +3176,7 @@
       "status": "active",
       "description": "",
       "downloads": 4654598,
-      "stars": 564
+      "stars": 565
     },
     {
       "name": "openai/whisper-small",
@@ -3245,7 +3245,7 @@
       "status": "active",
       "description": "",
       "downloads": 4443717,
-      "stars": 2726
+      "stars": 2727
     },
     {
       "name": "nvidia/bigvgan_v2_22khz_80band_256x",
@@ -3315,7 +3315,7 @@
       "status": "active",
       "description": "",
       "downloads": 4256790,
-      "stars": 599
+      "stars": 600
     },
     {
       "name": "openai/gpt-oss-120b",
@@ -3332,7 +3332,7 @@
       "status": "active",
       "description": "",
       "downloads": 4240543,
-      "stars": 4249
+      "stars": 4254
     },
     {
       "name": "autogluon/chronos-bolt-base",
@@ -3367,7 +3367,7 @@
       "status": "active",
       "description": "",
       "downloads": 4216159,
-      "stars": 811
+      "stars": 813
     },
     {
       "name": "roadz/qwen3-1.7b-oxxroad",
@@ -3453,7 +3453,7 @@
       "status": "active",
       "description": "",
       "downloads": 3958095,
-      "stars": 5406
+      "stars": 5407
     },
     {
       "name": "Qwen/Qwen3-Embedding-0.6B",
@@ -3540,7 +3540,7 @@
       "status": "active",
       "description": "",
       "downloads": 3491780,
-      "stars": 434
+      "stars": 435
     },
     {
       "name": "meta-llama/Llama-3.2-1B-Instruct",
@@ -3851,7 +3851,7 @@
       "status": "active",
       "description": "",
       "downloads": 2946778,
-      "stars": 2223
+      "stars": 2225
     },
     {
       "name": "ggml-org/models-moved",
@@ -3902,7 +3902,7 @@
       "status": "active",
       "description": "",
       "downloads": 2860848,
-      "stars": 910
+      "stars": 913
     },
     {
       "name": "opensearch-project/opensearch-neural-sparse-encoding-doc-v2-distill",
@@ -4004,7 +4004,7 @@
       "status": "active",
       "description": "",
       "downloads": 2692778,
-      "stars": 557
+      "stars": 559
     },
     {
       "name": "ibm-granite/granite-timeseries-ttm-r1",
@@ -4108,7 +4108,7 @@
       "status": "active",
       "description": "",
       "downloads": 2540161,
-      "stars": 1475
+      "stars": 1477
     },
     {
       "name": "google-t5/t5-small",
@@ -4128,7 +4128,7 @@
       "status": "active",
       "description": "",
       "downloads": 2537799,
-      "stars": 519
+      "stars": 520
     },
     {
       "name": "microsoft/TRELLIS-image-large",
@@ -4145,7 +4145,7 @@
       "status": "active",
       "description": "",
       "downloads": 2376469,
-      "stars": 600
+      "stars": 601
     },
     {
       "name": "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5",
@@ -4233,7 +4233,7 @@
       "status": "active",
       "description": "",
       "downloads": 2290484,
-      "stars": 412
+      "stars": 413
     },
     {
       "name": "sentence-transformers/msmarco-distilbert-base-tas-b",
@@ -4338,7 +4338,7 @@
       "status": "active",
       "description": "",
       "downloads": 2236159,
-      "stars": 7223
+      "stars": 7224
     },
     {
       "name": "context-labs/meta-llama-Llama-3.2-3B-Instruct-FP16",
@@ -4374,7 +4374,7 @@
       "status": "active",
       "description": "",
       "downloads": 2143281,
-      "stars": 747
+      "stars": 748
     },
     {
       "name": "sentence-transformers/gtr-t5-base",
@@ -4580,7 +4580,7 @@
       "status": "active",
       "description": "",
       "downloads": 1985969,
-      "stars": 937
+      "stars": 939
     },
     {
       "name": "facebook/esmfold_v1",
@@ -41705,7 +41705,7 @@
       "status": "active",
       "description": "",
       "downloads": 1407177,
-      "stars": 1247
+      "stars": 1248
     },
     {
       "name": "meta-llama/Meta-Llama-3-8B-Instruct",
@@ -41774,7 +41774,7 @@
       "status": "active",
       "description": "",
       "downloads": 1375271,
-      "stars": 446
+      "stars": 447
     },
     {
       "name": "KB/bert-base-swedish-cased-ner",
@@ -42324,7 +42324,7 @@
       "status": "active",
       "description": "",
       "downloads": 1172102,
-      "stars": 157
+      "stars": 158
     },
     {
       "name": "facebook/bart-base",
@@ -42478,7 +42478,7 @@
       "status": "active",
       "description": "",
       "downloads": 1115215,
-      "stars": 3414
+      "stars": 3413
     },
     {
       "name": "nvidia/Llama-3.1-Nemotron-Nano-VL-8B-V1",
@@ -42615,7 +42615,7 @@
       "status": "active",
       "description": "",
       "downloads": 1093864,
-      "stars": 2304
+      "stars": 2306
     },
     {
       "name": "google/embeddinggemma-300m",
@@ -42632,7 +42632,7 @@
       "status": "active",
       "description": "",
       "downloads": 1083954,
-      "stars": 1334
+      "stars": 1335
     },
     {
       "name": "lucadiliello/BLEURT-20-D12",
@@ -42701,7 +42701,7 @@
       "status": "active",
       "description": "",
       "downloads": 1047117,
-      "stars": 268
+      "stars": 269
     },
     {
       "name": "BAAI/bge-reranker-large",
@@ -42770,7 +42770,7 @@
       "status": "active",
       "description": "",
       "downloads": 1027333,
-      "stars": 121
+      "stars": 124
     },
     {
       "name": "timm/tf_efficientnetv2_s.in21k_ft_in1k",
@@ -42804,7 +42804,7 @@
       "status": "active",
       "description": "",
       "downloads": 1018871,
-      "stars": 814
+      "stars": 815
     },
     {
       "name": "yuvalkirstain/PickScore_v1",
@@ -42926,7 +42926,7 @@
       "status": "active",
       "description": "",
       "downloads": 970817,
-      "stars": 833
+      "stars": 834
     },
     {
       "name": "cross-encoder/ms-marco-MiniLM-L2-v2",
@@ -43033,7 +43033,7 @@
       "status": "active",
       "description": "",
       "downloads": 938243,
-      "stars": 12012
+      "stars": 12015
     },
     {
       "name": "jonatasgrosman/wav2vec2-large-xlsr-53-polish",
@@ -43325,7 +43325,7 @@
       "status": "active",
       "description": "",
       "downloads": 904569,
-      "stars": 1028
+      "stars": 1029
     },
     {
       "name": "IDEA-Research/grounding-dino-tiny",
@@ -43398,7 +43398,7 @@
       "status": "active",
       "description": "",
       "downloads": 888236,
-      "stars": 485
+      "stars": 486
     },
     {
       "name": "Qwen/Qwen2.5-7B",
@@ -43661,7 +43661,7 @@
       "status": "active",
       "description": "",
       "downloads": 836657,
-      "stars": 270
+      "stars": 271
     },
     {
       "name": "facebook/sam3",
@@ -43678,7 +43678,7 @@
       "status": "active",
       "description": "",
       "downloads": 836121,
-      "stars": 1050
+      "stars": 1058
     },
     {
       "name": "Qwen/Qwen3-14B",
@@ -44038,7 +44038,7 @@
       "status": "active",
       "description": "",
       "downloads": 754074,
-      "stars": 547
+      "stars": 548
     },
     {
       "name": "unitary/toxic-bert",
@@ -44178,7 +44178,7 @@
       "status": "active",
       "description": "",
       "downloads": 732283,
-      "stars": 89
+      "stars": 90
     },
     {
       "name": "ZhengPeng7/BiRefNet",
@@ -44199,7 +44199,7 @@
       "status": "active",
       "description": "",
       "downloads": 731159,
-      "stars": 494
+      "stars": 496
     },
     {
       "name": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
@@ -44631,7 +44631,7 @@
       "status": "active",
       "description": "",
       "downloads": 678263,
-      "stars": 150
+      "stars": 151
     },
     {
       "name": "ngxson/Vintern-1B-v3_5-GGUF",
@@ -44804,7 +44804,7 @@
       "status": "active",
       "description": "",
       "downloads": 657152,
-      "stars": 667
+      "stars": 669
     },
     {
       "name": "rinna/japanese-cloob-vit-b-16",
@@ -45012,7 +45012,7 @@
       "status": "active",
       "description": "",
       "downloads": 637290,
-      "stars": 1337
+      "stars": 1338
     },
     {
       "name": "deepseek-ai/deepseek-coder-1.3b-instruct",
@@ -45064,7 +45064,7 @@
       "status": "active",
       "description": "",
       "downloads": 636673,
-      "stars": 709
+      "stars": 710
     },
     {
       "name": "meta-llama/Llama-3.1-70B-Instruct",
@@ -45203,7 +45203,7 @@
       "status": "active",
       "description": "",
       "downloads": 629373,
-      "stars": 24
+      "stars": 25
     },
     {
       "name": "Qwen/Qwen-Image-Edit-2509",
@@ -45220,7 +45220,7 @@
       "status": "active",
       "description": "",
       "downloads": 622814,
-      "stars": 967
+      "stars": 971
     },
     {
       "name": "microsoft/mdeberta-v3-base",
@@ -45480,7 +45480,7 @@
       "status": "active",
       "description": "",
       "downloads": 588514,
-      "stars": 246
+      "stars": 247
     },
     {
       "name": "depth-anything/Depth-Anything-V2-Small-hf",
@@ -45565,7 +45565,7 @@
       "status": "active",
       "description": "",
       "downloads": 573635,
-      "stars": 699
+      "stars": 700
     },
     {
       "name": "Qwen/Qwen3-30B-A3B-Thinking-2507",
@@ -45911,7 +45911,7 @@
       "status": "active",
       "description": "",
       "downloads": 531462,
-      "stars": 332
+      "stars": 333
     },
     {
       "name": "mistralai/Voxtral-Mini-3B-2507",
@@ -46001,7 +46001,7 @@
       "status": "active",
       "description": "",
       "downloads": 526675,
-      "stars": 116
+      "stars": 117
     },
     {
       "name": "unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit",
@@ -46056,7 +46056,7 @@
       "status": "active",
       "description": "",
       "downloads": 516983,
-      "stars": 2097
+      "stars": 2099
     },
     {
       "name": "allenai/OLMo-2-0425-1B",
@@ -46161,7 +46161,7 @@
       "status": "active",
       "description": "",
       "downloads": 505313,
-      "stars": 1001
+      "stars": 1000
     },
     {
       "name": "csebuetnlp/banglat5_banglaparaphrase",
@@ -46249,7 +46249,7 @@
       "status": "active",
       "description": "",
       "downloads": 491999,
-      "stars": 796
+      "stars": 797
     },
     {
       "name": "allegro/herbert-base-cased",
@@ -46943,7 +46943,7 @@
       "status": "active",
       "description": "",
       "downloads": 451929,
-      "stars": 266
+      "stars": 268
     },
     {
       "name": "nomic-ai/nomic-embed-text-v2-moe",
@@ -47485,7 +47485,7 @@
       "status": "active",
       "description": "",
       "downloads": 415723,
-      "stars": 52
+      "stars": 51
     },
     {
       "name": "HuggingFaceTB/SmolVLM-256M-Instruct",
@@ -47622,7 +47622,7 @@
       "status": "active",
       "description": "",
       "downloads": 407696,
-      "stars": 2600
+      "stars": 2601
     },
     {
       "name": "mistralai/Mistral-7B-Instruct-v0.1",
@@ -47744,7 +47744,7 @@
       "status": "active",
       "description": "",
       "downloads": 399129,
-      "stars": 166
+      "stars": 167
     },
     {
       "name": "ggml-org/tinygemma3-GGUF",
@@ -47778,7 +47778,7 @@
       "status": "active",
       "description": "",
       "downloads": 397536,
-      "stars": 1539
+      "stars": 1540
     },
     {
       "name": "OpenMed/OpenMed-NER-PharmaDetect-BigMed-278M",
@@ -47813,7 +47813,7 @@
       "status": "active",
       "description": "",
       "downloads": 395253,
-      "stars": 160
+      "stars": 161
     },
     {
       "name": "SpanBERT/spanbert-large-cased",
@@ -48415,7 +48415,7 @@
       "status": "active",
       "description": "",
       "downloads": 358946,
-      "stars": 60
+      "stars": 63
     },
     {
       "name": "Yehor/w2v-xls-r-uk",
@@ -48950,7 +48950,7 @@
       "status": "active",
       "description": "",
       "downloads": 344590,
-      "stars": 587
+      "stars": 588
     },
     {
       "name": "cl-nagoya/ruri-base",
@@ -49208,7 +49208,7 @@
       "status": "active",
       "description": "",
       "downloads": 332184,
-      "stars": 1170
+      "stars": 1172
     },
     {
       "name": "lmstudio-community/Qwen3-VL-4B-Instruct-MLX-5bit",
@@ -49312,7 +49312,7 @@
       "status": "active",
       "description": "",
       "downloads": 325836,
-      "stars": 674
+      "stars": 675
     },
     {
       "name": "John6666/wai-nsfw-illustrious-v80-sdxl",
@@ -49347,7 +49347,7 @@
       "status": "active",
       "description": "",
       "downloads": 325222,
-      "stars": 880
+      "stars": 881
     },
     {
       "name": "nateraw/vit-age-classifier",
@@ -49416,7 +49416,7 @@
       "status": "active",
       "description": "",
       "downloads": 323555,
-      "stars": 521
+      "stars": 522
     },
     {
       "name": "speechbrain/lang-id-voxlingua107-ecapa",
@@ -49967,7 +49967,7 @@
       "status": "active",
       "description": "",
       "downloads": 311938,
-      "stars": 192
+      "stars": 193
     },
     {
       "name": "Qwen/Qwen2.5-Coder-32B-Instruct",
@@ -50225,7 +50225,7 @@
       "status": "active",
       "description": "",
       "downloads": 306765,
-      "stars": 2469
+      "stars": 2470
     },
     {
       "name": "llava-hf/llava-onevision-qwen2-0.5b-ov-hf",
@@ -50451,7 +50451,7 @@
       "status": "active",
       "description": "",
       "downloads": 299240,
-      "stars": 309
+      "stars": 310
     },
     {
       "name": "kyutai/moshiko-pytorch-bf16",
@@ -50468,7 +50468,7 @@
       "status": "active",
       "description": "",
       "downloads": 297983,
-      "stars": 191
+      "stars": 192
     },
     {
       "name": "google/siglip2-giant-opt-patch16-384",
@@ -50519,7 +50519,7 @@
       "status": "active",
       "description": "",
       "downloads": 296552,
-      "stars": 2849
+      "stars": 2875
     },
     {
       "name": "facebook/esm2_t30_150M_UR50D",
@@ -50676,7 +50676,7 @@
       "status": "active",
       "description": "",
       "downloads": 291752,
-      "stars": 311
+      "stars": 312
     },
     {
       "name": "HuggingFaceTB/SmolLM2-135M-Instruct",
@@ -51502,7 +51502,7 @@
       "status": "active",
       "description": "",
       "downloads": 262674,
-      "stars": 2067
+      "stars": 2068
     },
     {
       "name": "huggyllama/llama-7b",
@@ -51520,7 +51520,7 @@
       "status": "active",
       "description": "",
       "downloads": 260947,
-      "stars": 350
+      "stars": 351
     },
     {
       "name": "nvidia/Llama-4-Scout-17B-16E-Instruct-FP8",
@@ -51676,7 +51676,7 @@
       "status": "active",
       "description": "",
       "downloads": 255823,
-      "stars": 501
+      "stars": 502
     },
     {
       "name": "Comfy-Org/flux1-schnell",
@@ -52158,7 +52158,7 @@
       "status": "active",
       "description": "",
       "downloads": 241798,
-      "stars": 145
+      "stars": 146
     },
     {
       "name": "OpenMed/OpenMed-NER-ChemicalDetect-BigMed-560M",
@@ -52365,7 +52365,7 @@
       "status": "active",
       "description": "",
       "downloads": 236246,
-      "stars": 1028
+      "stars": 1033
     },
     {
       "name": "ai-forever/ruT5-base",
@@ -52783,7 +52783,7 @@
       "status": "active",
       "description": "",
       "downloads": 228711,
-      "stars": 249
+      "stars": 250
     },
     {
       "name": "UCSC-VLAA/openvision-vit-large-patch14-224",
@@ -53699,7 +53699,7 @@
       "status": "active",
       "description": "",
       "downloads": 206060,
-      "stars": 1800
+      "stars": 1801
     },
     {
       "name": "MaziyarPanahi/Qwen3-1.7B-GGUF",
@@ -54387,7 +54387,7 @@
       "status": "active",
       "description": "",
       "downloads": 197401,
-      "stars": 21
+      "stars": 22
     },
     {
       "name": "mesolitica/llama2-embedding-1b-8k",
@@ -55199,7 +55199,7 @@
       "status": "active",
       "description": "",
       "downloads": 182696,
-      "stars": 239
+      "stars": 240
     },
     {
       "name": "Xenova/t5-small",
@@ -55251,7 +55251,7 @@
       "status": "active",
       "description": "",
       "downloads": 182549,
-      "stars": 155
+      "stars": 156
     },
     {
       "name": "peft-internal-testing/tiny-random-OPTForCausalLM",
@@ -55961,7 +55961,7 @@
       "status": "active",
       "description": "",
       "downloads": 172709,
-      "stars": 845
+      "stars": 847
     },
     {
       "name": "timm/vit_small_patch14_dinov2.lvd142m",
@@ -56236,7 +56236,7 @@
       "status": "active",
       "description": "",
       "downloads": 169683,
-      "stars": 43
+      "stars": 44
     },
     {
       "name": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
@@ -56585,7 +56585,7 @@
       "status": "active",
       "description": "",
       "downloads": 165747,
-      "stars": 245
+      "stars": 247
     },
     {
       "name": "flair/ner-english",
@@ -56811,7 +56811,7 @@
       "status": "active",
       "description": "",
       "downloads": 163610,
-      "stars": 136
+      "stars": 137
     },
     {
       "name": "madhurjindal/autonlp-Gibberish-Detector-492513457",
@@ -56915,7 +56915,7 @@
       "status": "active",
       "description": "",
       "downloads": 161825,
-      "stars": 3
+      "stars": 4
     },
     {
       "name": "cross-encoder/stsb-roberta-base",
@@ -57279,7 +57279,7 @@
       "status": "active",
       "description": "",
       "downloads": 158614,
-      "stars": 915
+      "stars": 925
     },
     {
       "name": "mpi-inno-comp/paecter",
@@ -57399,7 +57399,7 @@
       "status": "active",
       "description": "",
       "downloads": 157666,
-      "stars": 63
+      "stars": 64
     },
     {
       "name": "ckiplab/bert-base-chinese-ws",
@@ -57433,7 +57433,7 @@
       "status": "active",
       "description": "",
       "downloads": 156312,
-      "stars": 335
+      "stars": 334
     },
     {
       "name": "tencent/POINTS-Reader",
@@ -57485,7 +57485,7 @@
       "status": "active",
       "description": "",
       "downloads": 155249,
-      "stars": 98
+      "stars": 99
     },
     {
       "name": "unsloth/Qwen3-0.6B",
@@ -57831,7 +57831,7 @@
       "status": "active",
       "description": "",
       "downloads": 151246,
-      "stars": 233
+      "stars": 234
     },
     {
       "name": "MaziyarPanahi/Meta-Llama-3-8B-Instruct-GGUF",
@@ -57882,7 +57882,7 @@
       "status": "active",
       "description": "",
       "downloads": 150810,
-      "stars": 132
+      "stars": 133
     },
     {
       "name": "google/gemma-2-9b-it",
@@ -57918,7 +57918,7 @@
       "status": "active",
       "description": "",
       "downloads": 149375,
-      "stars": 590
+      "stars": 591
     },
     {
       "name": "allenai/ivila-block-layoutlm-finetuned-docbank",
@@ -58245,7 +58245,7 @@
       "status": "active",
       "description": "",
       "downloads": 145373,
-      "stars": 80
+      "stars": 81
     },
     {
       "name": "manhteky123/comment-classification",
@@ -59985,7 +59985,7 @@
       "status": "active",
       "description": "",
       "downloads": 132466,
-      "stars": 91
+      "stars": 92
     },
     {
       "name": "MaziyarPanahi/Yi-1.5-6B-Chat-GGUF",
@@ -60020,7 +60020,7 @@
       "status": "active",
       "description": "",
       "downloads": 132344,
-      "stars": 226
+      "stars": 227
     },
     {
       "name": "MaziyarPanahi/mistral-small-3.1-24b-instruct-2503-hf-GGUF",
@@ -61400,7 +61400,7 @@
       "status": "active",
       "description": "",
       "downloads": 119331,
-      "stars": 25
+      "stars": 26
     },
     {
       "name": "dbmdz/bert-base-turkish-cased",
@@ -61658,7 +61658,7 @@
       "status": "active",
       "description": "",
       "downloads": 118224,
-      "stars": 165
+      "stars": 166
     },
     {
       "name": "timm/convnext_base.fb_in22k_ft_in1k",
@@ -61744,7 +61744,7 @@
       "status": "active",
       "description": "",
       "downloads": 116943,
-      "stars": 346
+      "stars": 347
     },
     {
       "name": "Davlan/distilbert-base-multilingual-cased-ner-hrl",
@@ -62414,7 +62414,7 @@
       "status": "active",
       "description": "",
       "downloads": 111281,
-      "stars": 165
+      "stars": 166
     },
     {
       "name": "Comfy-Org/hunyuan3D_2.1_repackaged",
@@ -62533,7 +62533,7 @@
       "status": "active",
       "description": "",
       "downloads": 109806,
-      "stars": 29
+      "stars": 30
     },
     {
       "name": "gguf-org/flux2-dev-gguf",
@@ -63051,7 +63051,7 @@
       "status": "active",
       "description": "",
       "downloads": 106893,
-      "stars": 243
+      "stars": 244
     },
     {
       "name": "unsloth/gpt-oss-120b",
@@ -63722,7 +63722,7 @@
       "status": "active",
       "description": "",
       "downloads": 102395,
-      "stars": 468
+      "stars": 471
     },
     {
       "name": "jinaai/jina-embeddings-v2-base-de",
@@ -64346,7 +64346,7 @@
       "status": "active",
       "description": "",
       "downloads": 98533,
-      "stars": 306
+      "stars": 307
     },
     {
       "name": "Comfy-Org/stable-diffusion-3.5-fp8",
@@ -65539,7 +65539,7 @@
       "status": "active",
       "description": "",
       "downloads": 90442,
-      "stars": 134
+      "stars": 135
     },
     {
       "name": "lmstudio-community/Magistral-Small-2509-MLX-6bit",
@@ -66282,7 +66282,7 @@
       "status": "active",
       "description": "",
       "downloads": 85921,
-      "stars": 479
+      "stars": 480
     },
     {
       "name": "timm/swin_base_patch4_window7_224.ms_in22k_ft_in1k",
@@ -66611,7 +66611,7 @@
       "status": "active",
       "description": "",
       "downloads": 83882,
-      "stars": 270
+      "stars": 271
     },
     {
       "name": "grammarly/coedit-large",
@@ -66646,7 +66646,7 @@
       "status": "active",
       "description": "",
       "downloads": 83754,
-      "stars": 24
+      "stars": 26
     },
     {
       "name": "typeform/distilbert-base-uncased-mnli",
@@ -68066,7 +68066,7 @@
       "status": "active",
       "description": "",
       "downloads": 77485,
-      "stars": 49
+      "stars": 51
     },
     {
       "name": "EleutherAI/pythia-160m",
@@ -68394,7 +68394,7 @@
       "status": "active",
       "description": "",
       "downloads": 75988,
-      "stars": 32
+      "stars": 31
     },
     {
       "name": "RedHatAI/gpt-oss-20b-speculator.eagle3",
@@ -68619,7 +68619,7 @@
       "status": "active",
       "description": "",
       "downloads": 74813,
-      "stars": 246
+      "stars": 248
     },
     {
       "name": "Salesforce/codet5p-110m-embedding",
@@ -68722,7 +68722,7 @@
       "status": "active",
       "description": "",
       "downloads": 74546,
-      "stars": 457
+      "stars": 458
     },
     {
       "name": "Qwen/Qwen2.5-Coder-3B-Instruct",
@@ -69951,7 +69951,7 @@
       "status": "active",
       "description": "",
       "downloads": 69258,
-      "stars": 109
+      "stars": 110
     },
     {
       "name": "jonghyunlee/ChemBERT_ChEMBL_pretrained",
@@ -70538,7 +70538,7 @@
       "status": "active",
       "description": "",
       "downloads": 67173,
-      "stars": 954
+      "stars": 959
     },
     {
       "name": "nreimers/MiniLMv2-L6-H384-distilled-from-BERT-Large",
@@ -71060,7 +71060,7 @@
       "status": "active",
       "description": "",
       "downloads": 64833,
-      "stars": 36
+      "stars": 37
     },
     {
       "name": "Comfy-Org/hunyuan3D_2.0_repackaged",
@@ -71957,7 +71957,7 @@
       "status": "active",
       "description": "",
       "downloads": 61684,
-      "stars": 930
+      "stars": 931
     },
     {
       "name": "unsloth/gpt-oss-120b-BF16",
@@ -72009,7 +72009,7 @@
       "status": "active",
       "description": "",
       "downloads": 61369,
-      "stars": 20
+      "stars": 22
     },
     {
       "name": "vblagoje/bert-english-uncased-finetuned-pos",
@@ -72145,7 +72145,7 @@
       "status": "active",
       "description": "",
       "downloads": 61007,
-      "stars": 2277
+      "stars": 2278
     },
     {
       "name": "lightonai/MonoQwen2-VL-v0.1",
@@ -72351,7 +72351,7 @@
       "status": "active",
       "description": "",
       "downloads": 60243,
-      "stars": 58
+      "stars": 59
     },
     {
       "name": "kykim/bert-kor-base",
@@ -72768,7 +72768,7 @@
       "status": "active",
       "description": "",
       "downloads": 58912,
-      "stars": 2873
+      "stars": 2874
     },
     {
       "name": "Salesforce/moirai-1.1-R-base",
@@ -72892,7 +72892,7 @@
       "status": "active",
       "description": "",
       "downloads": 58506,
-      "stars": 127
+      "stars": 128
     },
     {
       "name": "monologg/distilkobert",
@@ -73790,7 +73790,7 @@
       "status": "active",
       "description": "",
       "downloads": 55649,
-      "stars": 995
+      "stars": 996
     },
     {
       "name": "OrcaDB/distilbert-base-uncased",
@@ -74069,7 +74069,7 @@
       "status": "active",
       "description": "",
       "downloads": 54702,
-      "stars": 35
+      "stars": 36
     },
     {
       "name": "TitanML/tiny-mixtral",
@@ -75249,7 +75249,7 @@
       "status": "active",
       "description": "",
       "downloads": 51591,
-      "stars": 340
+      "stars": 345
     },
     {
       "name": "JacobLinCool/MP-SENet-DNS",
@@ -75542,7 +75542,7 @@
       "status": "active",
       "description": "",
       "downloads": 50490,
-      "stars": 121
+      "stars": 122
     },
     {
       "name": "LiheYoung/depth_anything_vitl14",
@@ -75851,7 +75851,7 @@
       "status": "active",
       "description": "",
       "downloads": 49796,
-      "stars": 67
+      "stars": 68
     },
     {
       "name": "OpenMed/OpenMed-NER-ChemicalDetect-EuroMed-212M",
@@ -76677,7 +76677,7 @@
       "status": "active",
       "description": "",
       "downloads": 47687,
-      "stars": 36
+      "stars": 37
     },
     {
       "name": "lmstudio-community/gpt-oss-120b-MLX-8bit",
@@ -76917,7 +76917,7 @@
       "status": "active",
       "description": "",
       "downloads": 47155,
-      "stars": 15
+      "stars": 16
     },
     {
       "name": "jackaduma/SecRoBERTa",
@@ -77055,7 +77055,7 @@
       "status": "active",
       "description": "",
       "downloads": 46841,
-      "stars": 19
+      "stars": 20
     },
     {
       "name": "timm/vit_base_patch14_reg4_dinov2.lvd142m",
@@ -77621,7 +77621,7 @@
       "status": "active",
       "description": "",
       "downloads": 45376,
-      "stars": 3268
+      "stars": 3269
     },
     {
       "name": "elyza/Llama-3-ELYZA-JP-8B",
@@ -79482,7 +79482,7 @@
       "status": "active",
       "description": "",
       "downloads": 41619,
-      "stars": 100
+      "stars": 101
     },
     {
       "name": "cpatonn/Qwen3-Next-80B-A3B-Instruct-AWQ-4bit",
@@ -80418,7 +80418,7 @@
       "status": "active",
       "description": "",
       "downloads": 39039,
-      "stars": 457
+      "stars": 458
     },
     {
       "name": "deepvk/USER2-base",
@@ -81045,7 +81045,7 @@
       "status": "active",
       "description": "",
       "downloads": 38123,
-      "stars": 139
+      "stars": 140
     },
     {
       "name": "allenai/Molmo-7B-D-0924",
@@ -81063,7 +81063,7 @@
       "status": "active",
       "description": "",
       "downloads": 38089,
-      "stars": 557
+      "stars": 558
     },
     {
       "name": "HuggingFaceM4/tiny-random-LlamaForCausalLM",
@@ -81409,7 +81409,7 @@
       "status": "active",
       "description": "",
       "downloads": 37492,
-      "stars": 5
+      "stars": 6
     },
     {
       "name": "timm/vit_small_patch16_224.dino",
@@ -81443,7 +81443,7 @@
       "status": "active",
       "description": "",
       "downloads": 37422,
-      "stars": 86
+      "stars": 87
     },
     {
       "name": "MaziyarPanahi/Trinity-Mini-GGUF",
@@ -81787,7 +81787,7 @@
       "status": "active",
       "description": "",
       "downloads": 36864,
-      "stars": 137
+      "stars": 138
     },
     {
       "name": "casperhansen/llama-3.3-70b-instruct-awq",
@@ -81978,7 +81978,7 @@
       "status": "active",
       "description": "",
       "downloads": 36485,
-      "stars": 28
+      "stars": 29
     },
     {
       "name": "LukeJacob2023/nsfw-image-detector",
@@ -82959,7 +82959,7 @@
       "status": "active",
       "description": "",
       "downloads": 34353,
-      "stars": 637
+      "stars": 638
     },
     {
       "name": "google/byt5-base",
@@ -84410,7 +84410,7 @@
       "status": "active",
       "description": "",
       "downloads": 32672,
-      "stars": 9
+      "stars": 10
     },
     {
       "name": "unsloth/gemma-2-2b-it-bnb-4bit",
@@ -85310,7 +85310,7 @@
       "status": "active",
       "description": "",
       "downloads": 31439,
-      "stars": 236
+      "stars": 238
     },
     {
       "name": "InstaDeepAI/nucleotide-transformer-v2-500m-multi-species",
@@ -85449,7 +85449,7 @@
       "status": "active",
       "description": "",
       "downloads": 31222,
-      "stars": 118
+      "stars": 119
     },
     {
       "name": "retroboy3000/protectai_models_Retr0REG_Whats-up-gguf_2",
@@ -85723,7 +85723,7 @@
       "status": "active",
       "description": "",
       "downloads": 30824,
-      "stars": 94
+      "stars": 95
     },
     {
       "name": "moonshotai/Kimi-VL-A3B-Thinking",
@@ -86258,7 +86258,7 @@
       "status": "active",
       "description": "",
       "downloads": 30221,
-      "stars": 886
+      "stars": 889
     },
     {
       "name": "rtr46/meiki.txt.recognition.v0",
@@ -87849,7 +87849,7 @@
       "status": "active",
       "description": "",
       "downloads": 28619,
-      "stars": 2
+      "stars": 3
     },
     {
       "name": "BAAI/seggpt-vit-large",
@@ -88003,7 +88003,7 @@
       "status": "active",
       "description": "",
       "downloads": 28351,
-      "stars": 138
+      "stars": 139
     },
     {
       "name": "RunDiffusion/Juggernaut-XI-v11",
@@ -88233,7 +88233,7 @@
       "status": "active",
       "description": "",
       "downloads": 28106,
-      "stars": 389
+      "stars": 396
     },
     {
       "name": "liuhaotian/llava-v1.5-13b",
@@ -88285,7 +88285,7 @@
       "status": "active",
       "description": "",
       "downloads": 28045,
-      "stars": 179
+      "stars": 180
     },
     {
       "name": "michaelbenayoun/qwen3-tiny-4kv-heads-4layers-random",
@@ -88719,7 +88719,7 @@
       "status": "active",
       "description": "",
       "downloads": 27665,
-      "stars": 19
+      "stars": 20
     },
     {
       "name": "Qwen/Qwen2.5-72B-Instruct-GPTQ-Int8",
@@ -89240,7 +89240,7 @@
       "status": "active",
       "description": "",
       "downloads": 27146,
-      "stars": 2286
+      "stars": 2285
     },
     {
       "name": "timm/mobilenetv4_conv_small.e1200_r224_in1k",
@@ -89652,7 +89652,7 @@
       "status": "active",
       "description": "",
       "downloads": 26691,
-      "stars": 138
+      "stars": 139
     },
     {
       "name": "unsloth/GLM-4.6V-Flash-GGUF",
@@ -89757,7 +89757,7 @@
       "status": "active",
       "description": "",
       "downloads": 26591,
-      "stars": 0
+      "stars": 1
     },
     {
       "name": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-FP8-dynamic",
@@ -89791,7 +89791,7 @@
       "status": "active",
       "description": "",
       "downloads": 26554,
-      "stars": 837
+      "stars": 838
     },
     {
       "name": "Disty0/Z-Image-Turbo-SDNQ-uint4-svd-r32",
@@ -89825,7 +89825,7 @@
       "status": "active",
       "description": "",
       "downloads": 26539,
-      "stars": 0
+      "stars": 1
     },
     {
       "name": "BAAI/bge-small-zh",
@@ -90376,7 +90376,7 @@
       "status": "active",
       "description": "",
       "downloads": 26042,
-      "stars": 0
+      "stars": 1
     },
     {
       "name": "NeelNanda/SoLU_2L512W_C4_Code",
@@ -91170,7 +91170,7 @@
       "status": "active",
       "description": "",
       "downloads": 25254,
-      "stars": 183
+      "stars": 184
     },
     {
       "name": "zhx123/ftrobertallm",
@@ -91581,7 +91581,7 @@
       "status": "active",
       "description": "",
       "downloads": 24983,
-      "stars": 76
+      "stars": 77
     },
     {
       "name": "bartowski/Qwen2.5-7B-Instruct-GGUF",
@@ -92064,6 +92064,57 @@
       "status": "active",
       "description": "",
       "downloads": 24441,
+      "stars": 0
+    },
+    {
+      "name": "gpt-4o-transcribe-diarize",
+      "version": "N/A",
+      "release_date": "",
+      "last_updated": "",
+      "task_types": [
+        "audio_transcription"
+      ],
+      "parameters": "2000",
+      "documentation_url": "https://docs.litellm.ai/docs/providers/openai",
+      "source_url": "https://github.com/BerriAI/litellm",
+      "platform": "LiteLLM",
+      "status": "active",
+      "description": "Provider: openai; Max tokens: 2000; Pricing available",
+      "downloads": 0,
+      "stars": 0
+    },
+    {
+      "name": "gemini/gemini-3-flash-preview",
+      "version": "N/A",
+      "release_date": "",
+      "last_updated": "",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "65535",
+      "documentation_url": "https://docs.litellm.ai/docs/providers/gemini",
+      "source_url": "https://github.com/BerriAI/litellm",
+      "platform": "LiteLLM",
+      "status": "active",
+      "description": "Provider: gemini; Max tokens: 65535; Pricing available",
+      "downloads": 0,
+      "stars": 0
+    },
+    {
+      "name": "gemini-3-flash-preview",
+      "version": "N/A",
+      "release_date": "",
+      "last_updated": "",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "65535",
+      "documentation_url": "https://docs.litellm.ai/docs/providers/vertex_ai-language-models",
+      "source_url": "https://github.com/BerriAI/litellm",
+      "platform": "LiteLLM",
+      "status": "active",
+      "description": "Provider: vertex_ai-language-models; Max tokens: 65535; Pricing available",
+      "downloads": 0,
       "stars": 0
     }
   ]
