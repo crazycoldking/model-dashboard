@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T04:41:54.088144",
+  "last_updated": "2026-06-14T05:00:22.591876",
   "total_models": 9267,
   "models": [
     {
@@ -173,387 +173,10 @@
       "stars": 0
     },
     {
-      "name": "thedotmack/claude-mem",
-      "version": "N/A",
-      "release_date": "2025-08-31T20:50:03+00:00",
-      "last_updated": "2026-06-13T04:38:53+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/thedotmack/claude-mem",
-      "source_url": "https://github.com/thedotmack/claude-mem",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Cla",
-      "downloads": 0,
-      "stars": 82028
-    },
-    {
-      "name": "OpenHands/OpenHands",
-      "version": "N/A",
-      "release_date": "2024-03-13T03:33:31+00:00",
-      "last_updated": "2026-06-13T04:38:25+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/OpenHands/OpenHands",
-      "source_url": "https://github.com/OpenHands/OpenHands",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🙌 OpenHands: AI-Driven Development",
-      "downloads": 0,
-      "stars": 76690
-    },
-    {
-      "name": "d2l-ai/d2l-zh",
-      "version": "N/A",
-      "release_date": "2017-08-23T04:40:24+00:00",
-      "last_updated": "2026-06-13T04:37:56+00:00",
-      "task_types": [
-        "image-classification"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/d2l-ai/d2l-zh",
-      "source_url": "https://github.com/d2l-ai/d2l-zh",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
-      "downloads": 0,
-      "stars": 78311
-    },
-    {
-      "name": "jingyaogong/minimind",
-      "version": "N/A",
-      "release_date": "2024-07-27T04:34:12+00:00",
-      "last_updated": "2026-06-13T04:37:19+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/jingyaogong/minimind",
-      "source_url": "https://github.com/jingyaogong/minimind",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
-      "downloads": 0,
-      "stars": 51678
-    },
-    {
-      "name": "labmlai/annotated_deep_learning_paper_implementations",
-      "version": "N/A",
-      "release_date": "2020-08-25T02:29:34+00:00",
-      "last_updated": "2026-06-13T04:36:59+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-      "source_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(",
-      "downloads": 0,
-      "stars": 66925
-    },
-    {
-      "name": "Developer-Y/cs-video-courses",
-      "version": "N/A",
-      "release_date": "2016-10-21T17:02:11+00:00",
-      "last_updated": "2026-06-13T04:35:35+00:00",
-      "task_types": [
-        "image-classification"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/Developer-Y/cs-video-courses",
-      "source_url": "https://github.com/Developer-Y/cs-video-courses",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "List of Computer Science courses with video lectures.",
-      "downloads": 0,
-      "stars": 81781
-    },
-    {
-      "name": "f/prompts.chat",
-      "version": "N/A",
-      "release_date": "2022-12-05T13:54:13+00:00",
-      "last_updated": "2026-06-13T04:34:42+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/f/prompts.chat",
-      "source_url": "https://github.com/f/prompts.chat",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "downloads": 0,
-      "stars": 163636
-    },
-    {
-      "name": "pytorch/pytorch",
-      "version": "N/A",
-      "release_date": "2016-08-13T05:26:41+00:00",
-      "last_updated": "2026-06-13T04:34:40+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/pytorch/pytorch",
-      "source_url": "https://github.com/pytorch/pytorch",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "downloads": 0,
-      "stars": 100702
-    },
-    {
-      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "version": "N/A",
-      "release_date": "2021-01-02T12:08:37+00:00",
-      "last_updated": "2026-06-13T04:32:04+00:00",
-      "task_types": [
-        "image-classification",
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "source_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
-      "downloads": 0,
-      "stars": 34474
-    },
-    {
-      "name": "microsoft/ML-For-Beginners",
-      "version": "N/A",
-      "release_date": "2021-03-03T01:34:05+00:00",
-      "last_updated": "2026-06-13T04:31:45+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/microsoft/ML-For-Beginners",
-      "source_url": "https://github.com/microsoft/ML-For-Beginners",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-      "downloads": 0,
-      "stars": 86766
-    },
-    {
-      "name": "opencv/opencv",
-      "version": "N/A",
-      "release_date": "2012-07-19T09:40:17+00:00",
-      "last_updated": "2026-06-13T04:31:27+00:00",
-      "task_types": [
-        "image-classification"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/opencv/opencv",
-      "source_url": "https://github.com/opencv/opencv",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Open Source Computer Vision Library",
-      "downloads": 0,
-      "stars": 88989
-    },
-    {
-      "name": "OpenBB-finance/OpenBB",
-      "version": "N/A",
-      "release_date": "2020-12-20T10:46:38+00:00",
-      "last_updated": "2026-06-13T04:30:42+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/OpenBB-finance/OpenBB",
-      "source_url": "https://github.com/OpenBB-finance/OpenBB",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Financial data platform for analysts, quants and AI agents.",
-      "downloads": 0,
-      "stars": 69029
-    },
-    {
-      "name": "hacksider/Deep-Live-Cam",
-      "version": "N/A",
-      "release_date": "2023-09-24T13:19:31+00:00",
-      "last_updated": "2026-06-13T04:27:46+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/hacksider/Deep-Live-Cam",
-      "source_url": "https://github.com/hacksider/Deep-Live-Cam",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "real time face swap and one-click video deepfake with only a single image",
-      "downloads": 0,
-      "stars": 93766
-    },
-    {
-      "name": "huggingface/transformers",
-      "version": "N/A",
-      "release_date": "2018-10-29T13:56:00+00:00",
-      "last_updated": "2026-06-13T04:18:30+00:00",
-      "task_types": [
-        "speech-recognition",
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/huggingface/transformers",
-      "source_url": "https://github.com/huggingface/transformers",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "downloads": 0,
-      "stars": 161550
-    },
-    {
-      "name": "AUTOMATIC1111/stable-diffusion-webui",
-      "version": "N/A",
-      "release_date": "2022-08-22T14:05:26+00:00",
-      "last_updated": "2026-06-13T04:17:21+00:00",
-      "task_types": [
-        "generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Stable Diffusion web UI",
-      "downloads": 0,
-      "stars": 163660
-    },
-    {
-      "name": "Significant-Gravitas/AutoGPT",
-      "version": "N/A",
-      "release_date": "2023-03-16T09:21:07+00:00",
-      "last_updated": "2026-06-13T04:17:15+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "downloads": 0,
-      "stars": 184918
-    },
-    {
-      "name": "tensorflow/tensorflow",
-      "version": "N/A",
-      "release_date": "2015-11-07T01:19:20+00:00",
-      "last_updated": "2026-06-13T04:15:21+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/tensorflow/tensorflow",
-      "source_url": "https://github.com/tensorflow/tensorflow",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "An Open Source Machine Learning Framework for Everyone",
-      "downloads": 0,
-      "stars": 195624
-    },
-    {
-      "name": "mlabonne/llm-course",
-      "version": "N/A",
-      "release_date": "2023-06-17T22:16:25+00:00",
-      "last_updated": "2026-06-13T04:11:33+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/mlabonne/llm-course",
-      "source_url": "https://github.com/mlabonne/llm-course",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "downloads": 0,
-      "stars": 80065
-    },
-    {
-      "name": "dair-ai/Prompt-Engineering-Guide",
-      "version": "N/A",
-      "release_date": "2022-12-16T16:04:50+00:00",
-      "last_updated": "2026-06-13T04:10:31+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-      "source_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "downloads": 0,
-      "stars": 75576
-    },
-    {
-      "name": "tesseract-ocr/tesseract",
-      "version": "N/A",
-      "release_date": "2014-08-12T18:04:59+00:00",
-      "last_updated": "2026-06-13T03:56:27+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/tesseract-ocr/tesseract",
-      "source_url": "https://github.com/tesseract-ocr/tesseract",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Tesseract Open Source OCR Engine (main repository)",
-      "downloads": 0,
-      "stars": 74650
-    },
-    {
-      "name": "microsoft/AI-For-Beginners",
-      "version": "N/A",
-      "release_date": "2021-03-03T16:27:36+00:00",
-      "last_updated": "2026-06-13T03:53:28+00:00",
-      "task_types": [
-        "image-classification",
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/microsoft/AI-For-Beginners",
-      "source_url": "https://github.com/microsoft/AI-For-Beginners",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "downloads": 0,
-      "stars": 48103
-    },
-    {
-      "name": "rasbt/LLMs-from-scratch",
-      "version": "N/A",
-      "release_date": "2023-07-23T18:15:57+00:00",
-      "last_updated": "2026-06-13T03:45:06+00:00",
-      "task_types": [
-        "text-generation"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/rasbt/LLMs-from-scratch",
-      "source_url": "https://github.com/rasbt/LLMs-from-scratch",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "downloads": 0,
-      "stars": 97055
-    },
-    {
       "name": "ItzCrazyKns/Vane",
       "version": "N/A",
       "release_date": "2024-04-09T10:51:32+00:00",
-      "last_updated": "2026-06-13T03:31:23+00:00",
+      "last_updated": "2026-06-14T04:59:35+00:00",
       "task_types": [
         "text-generation"
       ],
@@ -564,118 +187,167 @@
       "status": "active",
       "description": "Vane is an AI-powered answering engine.",
       "downloads": 0,
-      "stars": 35283
+      "stars": 35290
     },
     {
-      "name": "Kong/kong",
+      "name": "rasbt/LLMs-from-scratch",
       "version": "N/A",
-      "release_date": "2014-11-17T23:56:08+00:00",
-      "last_updated": "2026-06-13T03:21:20+00:00",
+      "release_date": "2023-07-23T18:15:57+00:00",
+      "last_updated": "2026-06-14T04:59:34+00:00",
       "task_types": [
         "text-generation"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/Kong/kong",
-      "source_url": "https://github.com/Kong/kong",
+      "documentation_url": "https://github.com/rasbt/LLMs-from-scratch",
+      "source_url": "https://github.com/rasbt/LLMs-from-scratch",
       "platform": "GitHub",
       "status": "active",
-      "description": "🦍 The API and AI Gateway",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
       "downloads": 0,
-      "stars": 43580
+      "stars": 97118
     },
     {
-      "name": "ultralytics/ultralytics",
+      "name": "jingyaogong/minimind",
       "version": "N/A",
-      "release_date": "2022-09-11T16:39:45+00:00",
-      "last_updated": "2026-06-13T03:19:43+00:00",
+      "release_date": "2024-07-27T04:34:12+00:00",
+      "last_updated": "2026-06-14T04:56:08+00:00",
       "task_types": [
-        "image-classification",
-        "object-detection",
-        "classification"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/ultralytics/ultralytics",
-      "source_url": "https://github.com/ultralytics/ultralytics",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "Ultralytics YOLO 🚀",
-      "downloads": 0,
-      "stars": 58337
-    },
-    {
-      "name": "netdata/netdata",
-      "version": "N/A",
-      "release_date": "2013-06-17T18:39:10+00:00",
-      "last_updated": "2026-06-13T03:08:44+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/netdata/netdata",
-      "source_url": "https://github.com/netdata/netdata",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "downloads": 0,
-      "stars": 79137
-    },
-    {
-      "name": "binhnguyennus/awesome-scalability",
-      "version": "N/A",
-      "release_date": "2017-12-27T03:46:40+00:00",
-      "last_updated": "2026-06-13T02:45:28+00:00",
-      "task_types": [
-        "other"
-      ],
-      "parameters": "N/A",
-      "documentation_url": "https://github.com/binhnguyennus/awesome-scalability",
-      "source_url": "https://github.com/binhnguyennus/awesome-scalability",
-      "platform": "GitHub",
-      "status": "active",
-      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-      "downloads": 0,
-      "stars": 71694
-    },
-    {
-      "name": "explosion/spaCy",
-      "version": "N/A",
-      "release_date": "2014-07-03T15:15:40+00:00",
-      "last_updated": "2026-06-13T01:56:06+00:00",
-      "task_types": [
-        "classification",
         "text-generation"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/explosion/spaCy",
-      "source_url": "https://github.com/explosion/spaCy",
+      "documentation_url": "https://github.com/jingyaogong/minimind",
+      "source_url": "https://github.com/jingyaogong/minimind",
       "platform": "GitHub",
       "status": "active",
-      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
       "downloads": 0,
-      "stars": 33656
+      "stars": 51705
     },
     {
-      "name": "CorentinJ/Real-Time-Voice-Cloning",
+      "name": "OpenHands/OpenHands",
       "version": "N/A",
-      "release_date": "2019-05-26T08:56:15+00:00",
-      "last_updated": "2026-06-13T01:43:17+00:00",
+      "release_date": "2024-03-13T03:33:31+00:00",
+      "last_updated": "2026-06-14T04:55:09+00:00",
       "task_types": [
-        "speech-recognition"
+        "text-generation"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
-      "source_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "documentation_url": "https://github.com/OpenHands/OpenHands",
+      "source_url": "https://github.com/OpenHands/OpenHands",
       "platform": "GitHub",
       "status": "active",
-      "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "description": "🙌 OpenHands: AI-Driven Development",
       "downloads": 0,
-      "stars": 59906
+      "stars": 76929
+    },
+    {
+      "name": "microsoft/ML-For-Beginners",
+      "version": "N/A",
+      "release_date": "2021-03-03T01:34:05+00:00",
+      "last_updated": "2026-06-14T04:54:02+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/microsoft/ML-For-Beginners",
+      "source_url": "https://github.com/microsoft/ML-For-Beginners",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+      "downloads": 0,
+      "stars": 86810
+    },
+    {
+      "name": "microsoft/AI-For-Beginners",
+      "version": "N/A",
+      "release_date": "2021-03-03T16:27:36+00:00",
+      "last_updated": "2026-06-14T04:53:17+00:00",
+      "task_types": [
+        "text-generation",
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/microsoft/AI-For-Beginners",
+      "source_url": "https://github.com/microsoft/AI-For-Beginners",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "downloads": 0,
+      "stars": 48122
+    },
+    {
+      "name": "mlabonne/llm-course",
+      "version": "N/A",
+      "release_date": "2023-06-17T22:16:25+00:00",
+      "last_updated": "2026-06-14T04:52:56+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/mlabonne/llm-course",
+      "source_url": "https://github.com/mlabonne/llm-course",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "downloads": 0,
+      "stars": 80110
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "version": "N/A",
+      "release_date": "2025-08-31T20:50:03+00:00",
+      "last_updated": "2026-06-14T04:50:16+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/thedotmack/claude-mem",
+      "source_url": "https://github.com/thedotmack/claude-mem",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Cla",
+      "downloads": 0,
+      "stars": 82158
+    },
+    {
+      "name": "opencv/opencv",
+      "version": "N/A",
+      "release_date": "2012-07-19T09:40:17+00:00",
+      "last_updated": "2026-06-14T04:48:49+00:00",
+      "task_types": [
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/opencv/opencv",
+      "source_url": "https://github.com/opencv/opencv",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Open Source Computer Vision Library",
+      "downloads": 0,
+      "stars": 89083
+    },
+    {
+      "name": "pytorch/pytorch",
+      "version": "N/A",
+      "release_date": "2016-08-13T05:26:41+00:00",
+      "last_updated": "2026-06-14T04:43:14+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/pytorch/pytorch",
+      "source_url": "https://github.com/pytorch/pytorch",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "downloads": 0,
+      "stars": 100735
     },
     {
       "name": "FlowiseAI/Flowise",
       "version": "N/A",
       "release_date": "2023-03-31T12:23:09+00:00",
-      "last_updated": "2026-06-13T00:44:21+00:00",
+      "last_updated": "2026-06-14T04:41:39+00:00",
       "task_types": [
         "other"
       ],
@@ -686,30 +358,47 @@
       "status": "active",
       "description": "Build AI Agents, Visually",
       "downloads": 0,
-      "stars": 53526
+      "stars": 53552
     },
     {
-      "name": "keras-team/keras",
+      "name": "f/prompts.chat",
       "version": "N/A",
-      "release_date": "2015-03-28T00:35:42+00:00",
-      "last_updated": "2026-06-12T23:20:22+00:00",
+      "release_date": "2022-12-05T13:54:13+00:00",
+      "last_updated": "2026-06-14T04:35:52+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/f/prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "downloads": 0,
+      "stars": 163683
+    },
+    {
+      "name": "tensorflow/tensorflow",
+      "version": "N/A",
+      "release_date": "2015-11-07T01:19:20+00:00",
+      "last_updated": "2026-06-14T04:33:05+00:00",
       "task_types": [
         "other"
       ],
       "parameters": "N/A",
-      "documentation_url": "https://github.com/keras-team/keras",
-      "source_url": "https://github.com/keras-team/keras",
+      "documentation_url": "https://github.com/tensorflow/tensorflow",
+      "source_url": "https://github.com/tensorflow/tensorflow",
       "platform": "GitHub",
       "status": "active",
-      "description": "Deep Learning for humans",
+      "description": "An Open Source Machine Learning Framework for Everyone",
       "downloads": 0,
-      "stars": 64085
+      "stars": 195645
     },
     {
       "name": "ultralytics/yolov5",
       "version": "N/A",
       "release_date": "2020-05-18T03:45:11+00:00",
-      "last_updated": "2026-06-12T21:11:34+00:00",
+      "last_updated": "2026-06-14T04:31:53+00:00",
       "task_types": [
         "object-detection"
       ],
@@ -720,13 +409,324 @@
       "status": "active",
       "description": "Ultralytics YOLOv5 in PyTorch > ONNX > CoreML > TFLite",
       "downloads": 0,
-      "stars": 57518
+      "stars": 57520
+    },
+    {
+      "name": "d2l-ai/d2l-zh",
+      "version": "N/A",
+      "release_date": "2017-08-23T04:40:24+00:00",
+      "last_updated": "2026-06-14T04:31:51+00:00",
+      "task_types": [
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/d2l-ai/d2l-zh",
+      "source_url": "https://github.com/d2l-ai/d2l-zh",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+      "downloads": 0,
+      "stars": 78317
+    },
+    {
+      "name": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "version": "N/A",
+      "release_date": "2021-01-02T12:08:37+00:00",
+      "last_updated": "2026-06-14T04:29:31+00:00",
+      "task_types": [
+        "text-generation",
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "source_url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "downloads": 0,
+      "stars": 34507
+    },
+    {
+      "name": "dair-ai/Prompt-Engineering-Guide",
+      "version": "N/A",
+      "release_date": "2022-12-16T16:04:50+00:00",
+      "last_updated": "2026-06-14T04:12:22+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "source_url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "downloads": 0,
+      "stars": 75596
+    },
+    {
+      "name": "ultralytics/ultralytics",
+      "version": "N/A",
+      "release_date": "2022-09-11T16:39:45+00:00",
+      "last_updated": "2026-06-14T04:10:08+00:00",
+      "task_types": [
+        "object-detection",
+        "classification",
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/ultralytics/ultralytics",
+      "source_url": "https://github.com/ultralytics/ultralytics",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Ultralytics YOLO 🚀",
+      "downloads": 0,
+      "stars": 58360
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "version": "N/A",
+      "release_date": "2023-09-24T13:19:31+00:00",
+      "last_updated": "2026-06-14T04:04:12+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/hacksider/Deep-Live-Cam",
+      "source_url": "https://github.com/hacksider/Deep-Live-Cam",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "downloads": 0,
+      "stars": 93812
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "version": "N/A",
+      "release_date": "2023-03-16T09:21:07+00:00",
+      "last_updated": "2026-06-14T03:48:36+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "downloads": 0,
+      "stars": 184932
+    },
+    {
+      "name": "binhnguyennus/awesome-scalability",
+      "version": "N/A",
+      "release_date": "2017-12-27T03:46:40+00:00",
+      "last_updated": "2026-06-14T03:39:26+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/binhnguyennus/awesome-scalability",
+      "source_url": "https://github.com/binhnguyennus/awesome-scalability",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "downloads": 0,
+      "stars": 71717
+    },
+    {
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "version": "N/A",
+      "release_date": "2022-08-22T14:05:26+00:00",
+      "last_updated": "2026-06-14T03:32:23+00:00",
+      "task_types": [
+        "generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Stable Diffusion web UI",
+      "downloads": 0,
+      "stars": 163681
+    },
+    {
+      "name": "huggingface/transformers",
+      "version": "N/A",
+      "release_date": "2018-10-29T13:56:00+00:00",
+      "last_updated": "2026-06-14T03:30:41+00:00",
+      "task_types": [
+        "text-generation",
+        "speech-recognition"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/huggingface/transformers",
+      "source_url": "https://github.com/huggingface/transformers",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "downloads": 0,
+      "stars": 161571
+    },
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "version": "N/A",
+      "release_date": "2020-12-20T10:46:38+00:00",
+      "last_updated": "2026-06-14T03:18:36+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/OpenBB-finance/OpenBB",
+      "source_url": "https://github.com/OpenBB-finance/OpenBB",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "downloads": 0,
+      "stars": 69072
+    },
+    {
+      "name": "Developer-Y/cs-video-courses",
+      "version": "N/A",
+      "release_date": "2016-10-21T17:02:11+00:00",
+      "last_updated": "2026-06-14T02:53:34+00:00",
+      "task_types": [
+        "image-classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Developer-Y/cs-video-courses",
+      "source_url": "https://github.com/Developer-Y/cs-video-courses",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "List of Computer Science courses with video lectures.",
+      "downloads": 0,
+      "stars": 81788
+    },
+    {
+      "name": "Kong/kong",
+      "version": "N/A",
+      "release_date": "2014-11-17T23:56:08+00:00",
+      "last_updated": "2026-06-14T01:39:40+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/Kong/kong",
+      "source_url": "https://github.com/Kong/kong",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🦍 The API and AI Gateway",
+      "downloads": 0,
+      "stars": 43586
+    },
+    {
+      "name": "CorentinJ/Real-Time-Voice-Cloning",
+      "version": "N/A",
+      "release_date": "2019-05-26T08:56:15+00:00",
+      "last_updated": "2026-06-14T00:39:36+00:00",
+      "task_types": [
+        "speech-recognition"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "source_url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "downloads": 0,
+      "stars": 59908
+    },
+    {
+      "name": "netdata/netdata",
+      "version": "N/A",
+      "release_date": "2013-06-17T18:39:10+00:00",
+      "last_updated": "2026-06-13T23:57:12+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/netdata/netdata",
+      "source_url": "https://github.com/netdata/netdata",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "downloads": 0,
+      "stars": 79146
+    },
+    {
+      "name": "tesseract-ocr/tesseract",
+      "version": "N/A",
+      "release_date": "2014-08-12T18:04:59+00:00",
+      "last_updated": "2026-06-13T21:37:04+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/tesseract-ocr/tesseract",
+      "source_url": "https://github.com/tesseract-ocr/tesseract",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Tesseract Open Source OCR Engine (main repository)",
+      "downloads": 0,
+      "stars": 74667
+    },
+    {
+      "name": "labmlai/annotated_deep_learning_paper_implementations",
+      "version": "N/A",
+      "release_date": "2020-08-25T02:29:34+00:00",
+      "last_updated": "2026-06-13T19:26:34+00:00",
+      "task_types": [
+        "text-generation"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "source_url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(",
+      "downloads": 0,
+      "stars": 66923
+    },
+    {
+      "name": "keras-team/keras",
+      "version": "N/A",
+      "release_date": "2015-03-28T00:35:42+00:00",
+      "last_updated": "2026-06-13T18:36:08+00:00",
+      "task_types": [
+        "other"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/keras-team/keras",
+      "source_url": "https://github.com/keras-team/keras",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "Deep Learning for humans",
+      "downloads": 0,
+      "stars": 64088
+    },
+    {
+      "name": "explosion/spaCy",
+      "version": "N/A",
+      "release_date": "2014-07-03T15:15:40+00:00",
+      "last_updated": "2026-06-13T12:51:47+00:00",
+      "task_types": [
+        "text-generation",
+        "classification"
+      ],
+      "parameters": "N/A",
+      "documentation_url": "https://github.com/explosion/spaCy",
+      "source_url": "https://github.com/explosion/spaCy",
+      "platform": "GitHub",
+      "status": "active",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "downloads": 0,
+      "stars": 33658
     },
     {
       "name": "XingangPan/DragGAN",
       "version": "N/A",
       "release_date": "2023-05-18T10:08:02+00:00",
-      "last_updated": "2026-06-12T19:26:20+00:00",
+      "last_updated": "2026-06-13T05:48:09+00:00",
       "task_types": [
         "other"
       ],
